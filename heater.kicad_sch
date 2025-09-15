@@ -1130,6 +1130,212 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:Heatsink"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "HS"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Heatsink"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.3048 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0.3048 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Heatsink"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "thermal heat temperature"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Heatsink_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Heatsink_0_1"
+				(polyline
+					(pts
+						(xy -0.3302 1.27) (xy -0.9652 1.27) (xy -0.9652 3.81) (xy -1.6002 3.81) (xy -1.6002 1.27) (xy -2.2352 1.27)
+						(xy -2.2352 3.81) (xy -2.8702 3.81) (xy -2.8702 0) (xy -0.9652 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3302 1.27) (xy -0.3302 3.81) (xy 0.3048 3.81) (xy 0.3048 1.27) (xy 0.9398 1.27) (xy 0.9398 3.81)
+						(xy 1.5748 3.81) (xy 1.5748 1.27) (xy 2.2098 1.27) (xy 2.2098 3.81) (xy 2.8448 3.81) (xy 2.8448 0)
+						(xy -0.9652 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:Q_NMOS_GDS"
 			(pin_names
 				(offset 0)
@@ -1675,6 +1881,12 @@
 		(uuid "4f3701d0-4642-4294-b248-2d9ee1a0017a")
 	)
 	(junction
+		(at 247.65 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "523b1e0c-c3fa-43e0-8aaf-d544bff19eee")
+	)
+	(junction
 		(at 233.68 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1789,10 +2001,28 @@
 		(uuid "d49a37bf-638e-4fa9-96ba-0c48f050240b")
 	)
 	(junction
+		(at 49.53 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7a4a3db-70d7-4686-b9fe-86b80c749c45")
+	)
+	(junction
+		(at 153.67 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e26ef77c-915f-4841-8e10-e99543e00a7b")
+	)
+	(junction
 		(at 205.74 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e722db6b-4540-4637-990f-46a03bc3f9fd")
+	)
+	(junction
+		(at 247.65 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2b908bb-9eb1-4c33-be54-b6bbeada58ff")
 	)
 	(junction
 		(at 118.11 102.87)
@@ -1812,13 +2042,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 102.87) (xy 128.27 102.87)
+			(xy 247.65 45.72) (xy 250.19 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01e2aae8-11b0-4fb8-9897-f1bd665fed68")
+		(uuid "02b8cc0b-d14b-475b-8402-58700374354b")
 	)
 	(wire
 		(pts
@@ -1872,16 +2102,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 102.87) (xy 85.09 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c30a8e6-cde0-4598-9053-bc15c407bacf")
-	)
-	(wire
-		(pts
 			(xy 177.8 33.02) (xy 191.77 33.02)
 		)
 		(stroke
@@ -1909,16 +2129,6 @@
 			(type default)
 		)
 		(uuid "1cca206f-387e-41a0-955c-66be5f978c1e")
-	)
-	(wire
-		(pts
-			(xy 72.39 102.87) (xy 74.93 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d71cbec-3468-484e-a5f9-12e2c058f18d")
 	)
 	(wire
 		(pts
@@ -2012,6 +2222,36 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 100.33) (xy 49.53 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33a31f73-e50e-4b17-9230-0f2ba77ebb7c")
+	)
+	(wire
+		(pts
+			(xy 130.81 97.79) (xy 130.81 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38a0db52-8006-4f56-82ee-ba0f208bab1c")
+	)
+	(wire
+		(pts
+			(xy 49.53 92.71) (xy 49.53 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db4a296-c9b3-413e-aeb5-96596d21ed20")
+	)
+	(wire
+		(pts
 			(xy 130.81 74.93) (xy 130.81 77.47)
 		)
 		(stroke
@@ -2069,16 +2309,6 @@
 			(type default)
 		)
 		(uuid "54bb9902-3e7e-4bcc-ac2c-3900846fe250")
-	)
-	(wire
-		(pts
-			(xy 72.39 102.87) (xy 62.23 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59519617-24e8-449c-8fbb-5d4065e9a4d4")
 	)
 	(wire
 		(pts
@@ -2342,6 +2572,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 90.17) (xy 153.67 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95b3003e-780b-469b-ae91-6de3fb9ff031")
+	)
+	(wire
+		(pts
 			(xy 130.81 102.87) (xy 140.97 102.87)
 		)
 		(stroke
@@ -2379,16 +2619,6 @@
 			(type default)
 		)
 		(uuid "a232edbc-6ffd-4849-853a-463b799b53c1")
-	)
-	(wire
-		(pts
-			(xy 120.65 102.87) (xy 118.11 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2b81cc2-c95c-4aba-8590-91f53cec0444")
 	)
 	(wire
 		(pts
@@ -2432,6 +2662,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 102.87) (xy 72.39 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b38be8b7-7f5a-470e-9ac8-a7494a401be8")
+	)
+	(wire
+		(pts
 			(xy 85.09 102.87) (xy 87.63 102.87)
 		)
 		(stroke
@@ -2459,6 +2699,16 @@
 			(type default)
 		)
 		(uuid "b7ae235b-e18e-4b59-b504-df0fed96ff1e")
+	)
+	(wire
+		(pts
+			(xy 247.65 33.02) (xy 250.19 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba9c1a20-a883-44c3-8de3-659d2a3ebca5")
 	)
 	(wire
 		(pts
@@ -2552,16 +2802,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 97.79) (xy 130.81 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9ceb526-ddf2-413d-8206-bfb5064526a9")
-	)
-	(wire
-		(pts
 			(xy 166.37 115.57) (xy 166.37 120.65)
 		)
 		(stroke
@@ -2582,6 +2822,26 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 90.17) (xy 52.07 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d698fe89-d1ad-4445-8386-d9aae7edf49e")
+	)
+	(wire
+		(pts
+			(xy 153.67 100.33) (xy 153.67 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d80caf0e-5bf0-41a4-b9a4-4610ed8593f4")
+	)
+	(wire
+		(pts
 			(xy 72.39 97.79) (xy 72.39 102.87)
 		)
 		(stroke
@@ -2599,6 +2859,16 @@
 			(type default)
 		)
 		(uuid "df2f3a58-7da3-443a-97d8-7787de832436")
+	)
+	(wire
+		(pts
+			(xy 153.67 92.71) (xy 153.67 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df6bcc7e-6d2d-4d6c-bb5a-cd84e426cdb3")
 	)
 	(wire
 		(pts
@@ -2712,6 +2982,28 @@
 	)
 	(global_label "C2"
 		(shape input)
+		(at 52.07 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b0e7036-fa1a-4e90-a3e2-93baf97d7656")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.5347 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C2"
+		(shape input)
 		(at 111.76 45.72 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2767,6 +3059,28 @@
 		(uuid "72c6aa31-6495-4d58-8b09-011b1406ef5f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.1053 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C1"
+		(shape input)
+		(at 151.13 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9027a59-9261-49b7-98ab-f327bceb5cc8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.6653 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2893,7 +3207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0918_L18.0mm_D9.0mm_P30.48mm_Horizontal"
 			(at 129.794 81.534 90)
 			(effects
 				(font
@@ -2920,7 +3234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "ROX5SSJ47R"
 			(at 130.81 81.28 0)
 			(effects
 				(font
@@ -2938,7 +3252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "A142768CT-ND"
 			(at 130.81 81.28 0)
 			(effects
 				(font
@@ -3287,7 +3601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4"
 			(at 148.8948 43.18 0)
 			(effects
 				(font
@@ -3314,7 +3628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "MKP1J034706B00KSSD"
 			(at 149.86 39.37 0)
 			(effects
 				(font
@@ -3332,7 +3646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "1928-1437-ND"
 			(at 149.86 39.37 0)
 			(effects
 				(font
@@ -3383,7 +3697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
 			(at 87.63 118.11 0)
 			(effects
 				(font
@@ -3410,7 +3724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "IRFP4668PBF"
 			(at 82.55 120.65 0)
 			(effects
 				(font
@@ -3428,7 +3742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "IRFP4668PBF-ND"
 			(at 82.55 120.65 0)
 			(effects
 				(font
@@ -3616,7 +3930,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4"
 			(at 120.9548 43.18 0)
 			(effects
 				(font
@@ -3643,7 +3957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "MKP1J034706B00KSSD"
 			(at 121.92 39.37 0)
 			(effects
 				(font
@@ -3661,7 +3975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "1928-1437-ND"
 			(at 121.92 39.37 0)
 			(effects
 				(font
@@ -3714,7 +4028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4"
 			(at 246.6848 43.18 0)
 			(effects
 				(font
@@ -3741,7 +4055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "MKP1J034706B00KSSD"
 			(at 247.65 39.37 0)
 			(effects
 				(font
@@ -3759,7 +4073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "1928-1437-ND"
 			(at 247.65 39.37 0)
 			(effects
 				(font
@@ -3878,7 +4192,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 129.794 112.014 90)
 			(effects
 				(font
@@ -3905,7 +4219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CFR-50JB-52-18R"
 			(at 130.81 111.76 0)
 			(effects
 				(font
@@ -3923,7 +4237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "13-CFR-50JB-52-18R-ND"
 			(at 130.81 111.76 0)
 			(effects
 				(font
@@ -4042,7 +4356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4"
 			(at 204.7748 43.18 0)
 			(effects
 				(font
@@ -4069,7 +4383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "MKP1J034706B00KSSD"
 			(at 205.74 39.37 0)
 			(effects
 				(font
@@ -4087,7 +4401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "1928-1437-ND"
 			(at 205.74 39.37 0)
 			(effects
 				(font
@@ -4166,7 +4480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "FG26X7S2A225KRT06"
 			(at 36.83 111.76 0)
 			(effects
 				(font
@@ -4184,7 +4498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "445-173459-1-ND"
 			(at 36.83 111.76 0)
 			(effects
 				(font
@@ -4305,6 +4619,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Heatsink")
+		(at 130.81 129.54 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "65d300de-3fbb-45c6-84db-fffb215f0639")
+		(property "Reference" "HS2"
+			(at 127 126.3649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink"
+			(at 127 128.9049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.5052 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.5052 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink"
+			(at 130.81 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "694-50"
+			(at 130.81 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 130.81 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" "345-2021-ND"
+			(at 130.81 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "heater"
+				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
+					(reference "HS2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GDS")
 		(at 120.65 120.65 0)
 		(mirror y)
@@ -4332,7 +4737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
 			(at 115.57 118.11 0)
 			(effects
 				(font
@@ -4359,7 +4764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "IRFP4668PBF"
 			(at 120.65 120.65 0)
 			(effects
 				(font
@@ -4377,7 +4782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "IRFP4668PBF-ND"
 			(at 120.65 120.65 0)
 			(effects
 				(font
@@ -4432,7 +4837,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 181.61 114.3 0)
 			(effects
 				(font
@@ -4468,7 +4873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "WP7113ID"
 			(at 181.61 114.3 90)
 			(effects
 				(font
@@ -4486,7 +4891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "754-1264-ND"
 			(at 181.61 114.3 90)
 			(effects
 				(font
@@ -4505,6 +4910,97 @@
 			(project "heater"
 				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Heatsink")
+		(at 72.39 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e2974ab-60fa-4e29-84f7-20ba8d47324f")
+		(property "Reference" "HS1"
+			(at 76.2 126.3649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink"
+			(at 76.2 128.9049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.6948 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.6948 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink"
+			(at 72.39 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "694-50"
+			(at 72.39 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 72.39 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Part Number" "345-2021-ND"
+			(at 72.39 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
+					(reference "HS1")
 					(unit 1)
 				)
 			)
@@ -4539,7 +5035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 139.954 112.014 90)
 			(effects
 				(font
@@ -4566,7 +5062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CF12JT10K0"
 			(at 140.97 111.76 0)
 			(effects
 				(font
@@ -4584,7 +5080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "CF12JT10K0CT-ND"
 			(at 140.97 111.76 0)
 			(effects
 				(font
@@ -4702,7 +5198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0918_L18.0mm_D9.0mm_P30.48mm_Horizontal"
 			(at 129.794 94.234 90)
 			(effects
 				(font
@@ -4729,7 +5225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "ROX5SSJ470R"
 			(at 130.81 93.98 0)
 			(effects
 				(font
@@ -4747,7 +5243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "A142792CT-ND"
 			(at 130.81 93.98 0)
 			(effects
 				(font
@@ -4799,7 +5295,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0918_L18.0mm_D9.0mm_P30.48mm_Horizontal"
 			(at 73.406 81.534 90)
 			(effects
 				(font
@@ -4826,7 +5322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "ROX5SSJ47R"
 			(at 72.39 81.28 0)
 			(effects
 				(font
@@ -4844,7 +5340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "A142768CT-ND"
 			(at 72.39 81.28 0)
 			(effects
 				(font
@@ -5061,7 +5557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4"
 			(at 218.7448 43.18 0)
 			(effects
 				(font
@@ -5088,7 +5584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "MKP1J034706B00KSSD"
 			(at 219.71 39.37 0)
 			(effects
 				(font
@@ -5106,7 +5602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "1928-1437-ND"
 			(at 219.71 39.37 0)
 			(effects
 				(font
@@ -5158,7 +5654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 			(at 196.85 109.22 0)
 			(effects
 				(font
@@ -5185,7 +5681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SB5H100-E3/54"
 			(at 196.85 109.22 90)
 			(effects
 				(font
@@ -5203,7 +5699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "SB5H100-E3/54GICT-ND"
 			(at 196.85 109.22 90)
 			(effects
 				(font
@@ -5283,7 +5779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "FG26X7S2A225KRT06"
 			(at 166.37 111.76 0)
 			(effects
 				(font
@@ -5301,7 +5797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "445-173459-1-ND"
 			(at 166.37 111.76 0)
 			(effects
 				(font
@@ -5354,7 +5850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4"
 			(at 176.8348 43.18 0)
 			(effects
 				(font
@@ -5381,7 +5877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "MKP1J034706B00KSSD"
 			(at 177.8 39.37 0)
 			(effects
 				(font
@@ -5399,7 +5895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "1928-1437-ND"
 			(at 177.8 39.37 0)
 			(effects
 				(font
@@ -5612,7 +6108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 182.626 104.394 90)
 			(effects
 				(font
@@ -5639,7 +6135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CF12JT4K70"
 			(at 181.61 104.14 0)
 			(effects
 				(font
@@ -5657,7 +6153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "CF12JT4K70CT-ND"
 			(at 181.61 104.14 0)
 			(effects
 				(font
@@ -5750,7 +6246,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 78.74 102.87 180)
+		(at 49.53 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5758,23 +6254,23 @@
 		(dnp no)
 		(uuid "b60c350f-f96b-477d-863b-2efaa42bf5bb")
 		(property "Reference" "D5"
-			(at 78.74 97.536 0)
+			(at 44.196 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "D"
-			(at 78.74 100.076 0)
+		(property "Value" "FR307"
+			(at 46.736 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 78.74 102.87 0)
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+			(at 49.53 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5783,7 +6279,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 102.87 0)
+			(at 49.53 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5792,7 +6288,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 78.74 102.87 0)
+			(at 49.53 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5801,7 +6297,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 78.74 102.87 0)
+			(at 49.53 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5810,7 +6306,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 78.74 102.87 0)
+			(at 49.53 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5818,8 +6314,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 78.74 102.87 0)
+		(property "Manufacturer Part Number" "FR307G"
+			(at 49.53 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5828,7 +6324,7 @@
 			)
 		)
 		(property "Vendor" "Digi-Key"
-			(at 78.74 102.87 0)
+			(at 49.53 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5836,8 +6332,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
-			(at 78.74 102.87 0)
+		(property "Vendor Part Number" "1801-FR307GCT-ND"
+			(at 49.53 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5855,6 +6351,73 @@
 			(project ""
 				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 252.73 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b72175df-de0b-48b5-b22a-c151f024322f")
+		(property "Reference" "H2"
+			(at 256.54 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Coil 2"
+			(at 256.54 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_8.4mm_M8_Pad"
+			(at 252.73 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 252.73 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b80dab8-263a-460b-b133-0a52282e772c")
+		)
+		(instances
+			(project "heater"
+				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -5927,33 +6490,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 124.46 102.87 0)
-		(mirror x)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 252.73 33.02 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "d312be4d-a155-45ad-8241-bc7488bf3e77")
-		(property "Reference" "D6"
-			(at 124.46 97.79 0)
+		(fields_autoplaced yes)
+		(uuid "c9f19f7b-a3e6-48a1-bb34-3cffd67612e5")
+		(property "Reference" "H1"
+			(at 256.54 31.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 124.46 100.33 0)
+		(property "Value" "Coil 1"
+			(at 256.54 34.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 124.46 102.87 0)
+		(property "Footprint" "MountingHole:MountingHole_8.4mm_M8_Pad"
+			(at 252.73 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5962,7 +6527,72 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 102.87 0)
+			(at 252.73 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 252.73 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29ebb0ec-4974-4112-9935-b42aefb4dd2f")
+		)
+		(instances
+			(project ""
+				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 153.67 96.52 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d312be4d-a155-45ad-8241-bc7488bf3e77")
+		(property "Reference" "D6"
+			(at 158.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FR307"
+			(at 156.21 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+			(at 153.67 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5971,7 +6601,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 124.46 102.87 0)
+			(at 153.67 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5980,7 +6610,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 124.46 102.87 0)
+			(at 153.67 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5989,7 +6619,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 124.46 102.87 0)
+			(at 153.67 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5997,8 +6627,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 124.46 102.87 0)
+		(property "Manufacturer Part Number" "FR307G"
+			(at 153.67 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6007,7 +6637,7 @@
 			)
 		)
 		(property "Vendor" "Digi-Key"
-			(at 124.46 102.87 0)
+			(at 153.67 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6015,8 +6645,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
-			(at 124.46 102.87 0)
+		(property "Vendor Part Number" "1801-FR307GCT-ND"
+			(at 153.67 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6068,7 +6698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4"
 			(at 134.9248 43.18 0)
 			(effects
 				(font
@@ -6095,7 +6725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "MKP1J034706B00KSSD"
 			(at 135.89 39.37 0)
 			(effects
 				(font
@@ -6113,7 +6743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "1928-1437-ND"
 			(at 135.89 39.37 0)
 			(effects
 				(font
@@ -6165,7 +6795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 73.406 112.014 90)
 			(effects
 				(font
@@ -6192,7 +6822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CFR-50JB-52-18R"
 			(at 72.39 111.76 0)
 			(effects
 				(font
@@ -6210,7 +6840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "13-CFR-50JB-52-18R-ND"
 			(at 72.39 111.76 0)
 			(effects
 				(font
@@ -6263,7 +6893,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4"
 			(at 190.8048 43.18 0)
 			(effects
 				(font
@@ -6290,7 +6920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "MKP1J034706B00KSSD"
 			(at 191.77 39.37 0)
 			(effects
 				(font
@@ -6308,7 +6938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "1928-1437-ND"
 			(at 191.77 39.37 0)
 			(effects
 				(font
@@ -6494,7 +7124,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4"
 			(at 232.7148 43.18 0)
 			(effects
 				(font
@@ -6521,7 +7151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "MKP1J034706B00KSSD"
 			(at 233.68 39.37 0)
 			(effects
 				(font
@@ -6539,7 +7169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "1928-1437-ND"
 			(at 233.68 39.37 0)
 			(effects
 				(font
@@ -6592,7 +7222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4"
 			(at 162.8648 43.18 0)
 			(effects
 				(font
@@ -6619,7 +7249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "MKP1J034706B00KSSD"
 			(at 163.83 39.37 0)
 			(effects
 				(font
@@ -6637,7 +7267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "1928-1437-ND"
 			(at 163.83 39.37 0)
 			(effects
 				(font
@@ -6689,7 +7319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 63.246 112.014 90)
 			(effects
 				(font
@@ -6716,7 +7346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CF12JT10K0"
 			(at 62.23 111.76 0)
 			(effects
 				(font
@@ -6734,7 +7364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "CF12JT10K0CT-ND"
 			(at 62.23 111.76 0)
 			(effects
 				(font
@@ -6785,7 +7415,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0918_L18.0mm_D9.0mm_P30.48mm_Horizontal"
 			(at 73.406 94.234 90)
 			(effects
 				(font
@@ -6812,7 +7442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "ROX5SSJ470R"
 			(at 72.39 93.98 0)
 			(effects
 				(font
@@ -6830,7 +7460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "A142792CT-ND"
 			(at 72.39 93.98 0)
 			(effects
 				(font

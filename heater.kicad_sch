@@ -2092,6 +2092,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 115.57) (xy 205.74 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09aaa0e4-0934-4a4d-942e-c35f5f679f6d")
+	)
+	(wire
+		(pts
 			(xy 121.92 43.18) (xy 121.92 45.72)
 		)
 		(stroke
@@ -2642,6 +2652,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 115.57) (xy 205.74 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa518161-84cb-4675-b6a7-076d5534b6ca")
+	)
+	(wire
+		(pts
 			(xy 163.83 45.72) (xy 163.83 43.18)
 		)
 		(stroke
@@ -2782,6 +2802,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 100.33) (xy 210.82 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6323b45-48c5-462e-9b9f-d20d8283f3b0")
+	)
+	(wire
+		(pts
 			(xy 205.74 45.72) (xy 205.74 43.18)
 		)
 		(stroke
@@ -2879,6 +2909,16 @@
 			(type default)
 		)
 		(uuid "e5126648-834b-47fb-a914-5af16c7d36eb")
+	)
+	(wire
+		(pts
+			(xy 205.74 95.25) (xy 205.74 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e833b70f-b4f2-46c4-ad7f-b52114edad6b")
 	)
 	(wire
 		(pts
@@ -3404,6 +3444,73 @@
 			(project "heater"
 				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 205.74 120.65 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a3c839d-7335-46b9-be59-4e9395390e9e")
+		(property "Reference" "#PWR018"
+			(at 205.74 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "593617f2-3d6a-43bb-a335-a7bc48e64ed0")
+		)
+		(instances
+			(project "heater"
+				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4549,7 +4656,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_THT:L_Toroid_Vertical_L28.6mm_W14.3mm_P11.43mm_Bourns_5700"
+		(property "Footprint" "Inductor_THT:L_Toroid_Vertical_L31.8mm_W15.9mm_P13.50mm_Bourns_5700"
 			(at 118.11 87.63 0)
 			(effects
 				(font
@@ -4576,7 +4683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "2312-V-RC"
 			(at 118.11 87.63 0)
 			(effects
 				(font
@@ -4594,7 +4701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "M8888-ND"
 			(at 118.11 87.63 0)
 			(effects
 				(font
@@ -4804,6 +4911,73 @@
 			(project "heater"
 				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 213.36 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68f57609-6dd6-41cb-879c-b9f13ffb3978")
+		(property "Reference" "H4"
+			(at 217.17 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_8.4mm_M8_Pad"
+			(at 213.36 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 213.36 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "407895fe-e06c-4fc7-a0eb-6eb53716d0ea")
+		)
+		(instances
+			(project "heater"
+				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -5944,7 +6118,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_THT:L_Toroid_Vertical_L28.6mm_W14.3mm_P11.43mm_Bourns_5700"
+		(property "Footprint" "Inductor_THT:L_Toroid_Vertical_L31.8mm_W15.9mm_P13.50mm_Bourns_5700"
 			(at 85.09 87.63 0)
 			(effects
 				(font
@@ -5971,7 +6145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "2312-V-RC"
 			(at 85.09 87.63 0)
 			(effects
 				(font
@@ -5989,7 +6163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "M8888-ND"
 			(at 85.09 87.63 0)
 			(effects
 				(font
@@ -6075,6 +6249,72 @@
 			(project "heater"
 				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 205.74 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95859043-2ed7-4951-8cfe-1c730673ec3f")
+		(property "Reference" "#PWR017"
+			(at 205.74 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 205.74 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 205.74 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af37ce48-1a35-40dd-9694-29e60478434f")
+		)
+		(instances
+			(project "heater"
+				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6239,6 +6479,73 @@
 			(project "heater"
 				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 213.36 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a84cc938-6996-4087-bb19-de612aac0895")
+		(property "Reference" "H3"
+			(at 217.17 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "48Vin"
+			(at 217.17 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_8.4mm_M8_Pad"
+			(at 213.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 213.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db308fc0-6bb0-43d0-98e2-484ae10e115b")
+		)
+		(instances
+			(project "heater"
+				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
+					(reference "H3")
 					(unit 1)
 				)
 			)

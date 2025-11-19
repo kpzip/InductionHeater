@@ -7994,6 +7994,51 @@
 		(layer "Edge.Cuts")
 		(uuid "619fc9de-7156-46ea-bc52-d7575a57b2a9")
 	)
+	(gr_text "VIN"
+		(at 51 27 90)
+		(layer "F.SilkS")
+		(uuid "11056fe1-a9d0-4a61-9276-79e8062b2e95")
+		(effects
+			(font
+				(size 6 6)
+				(thickness 0.4)
+			)
+		)
+	)
+	(gr_text "GND"
+		(at 104.75 27 90)
+		(layer "F.SilkS")
+		(uuid "a4940a94-49d0-43c8-a472-eac5a42c46e7")
+		(effects
+			(font
+				(size 6 6)
+				(thickness 0.4)
+			)
+		)
+	)
+	(gr_text "Coil"
+		(at 76.75 182.25 0)
+		(layer "F.SilkS")
+		(uuid "cbce06dd-b6dd-4054-bb4b-96dc674e5e94")
+		(effects
+			(font
+				(size 8 8)
+				(thickness 0.4)
+			)
+		)
+	)
+	(gr_text "Induction Heater Revision 1.0\nDesigned by:\nKyle Schmerge"
+		(at 79.5 89.25 90)
+		(layer "B.SilkS")
+		(uuid "76b5d17f-1a51-44b2-8a30-71eb3ac53620")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(segment
 		(start 47.5 86.5)
 		(end 51 90)

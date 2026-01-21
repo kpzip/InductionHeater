@@ -3831,7 +3831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "IRFP4668PBF"
+		(property "Manufacturer Part Number" "IRFP4668PBFXKMA1"
 			(at 82.55 120.65 0)
 			(effects
 				(font
@@ -3849,7 +3849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" "IRFP4668PBF-ND"
+		(property "Vendor Part Number" "448-IRFP4668PBFXKMA1-ND"
 			(at 82.55 120.65 0)
 			(effects
 				(font
@@ -4871,7 +4871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "IRFP4668PBF"
+		(property "Manufacturer Part Number" "IRFP4668PBFXKMA1"
 			(at 120.65 120.65 0)
 			(effects
 				(font
@@ -4889,7 +4889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Part Number" "IRFP4668PBF-ND"
+		(property "Vendor Part Number" "448-IRFP4668PBFXKMA1-ND"
 			(at 120.65 120.65 0)
 			(effects
 				(font

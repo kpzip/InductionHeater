@@ -40,4 +40,9 @@ fp-info-cache
 *.kicad_prl
 
 # Outputs
-outputs/*
+outputs/
+
+# History
+.history/
+.history_old/
+.history_trim/

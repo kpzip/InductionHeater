@@ -2115,6 +2115,12 @@
 		(uuid "56cca9db-10b0-46ab-af00-279e6265d934")
 	)
 	(junction
+		(at 129.54 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5850aab7-9e9b-4858-93e7-5e5792d10984")
+	)
+	(junction
 		(at 120.65 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2193,6 +2199,12 @@
 		(uuid "aae9e5e2-1ac2-426e-a8ab-26ad83808b77")
 	)
 	(junction
+		(at 100.33 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acb8bdda-e4b3-4a98-b141-91e463141eb4")
+	)
+	(junction
 		(at 199.39 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2203,6 +2215,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b06268a4-3946-44ae-a0b3-8f0bf2bf78ef")
+	)
+	(junction
+		(at 100.33 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2df986b-8ef7-487b-a075-be97929dae52")
 	)
 	(junction
 		(at 232.41 45.72)
@@ -2346,6 +2364,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 186.69) (xy 109.22 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0437ea5c-a990-4229-b748-439832d50006")
+	)
+	(wire
+		(pts
 			(xy 148.59 45.72) (xy 162.56 45.72)
 		)
 		(stroke
@@ -2373,6 +2401,26 @@
 			(type default)
 		)
 		(uuid "09aaa0e4-0934-4a4d-942e-c35f5f679f6d")
+	)
+	(wire
+		(pts
+			(xy 91.44 168.91) (xy 100.33 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a1bae84-adb8-49cb-a48f-74e3ea5a6d06")
+	)
+	(wire
+		(pts
+			(xy 91.44 166.37) (xy 91.44 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a47dae6-da69-43b3-9a2e-2c15ac8d1d3d")
 	)
 	(wire
 		(pts
@@ -2506,6 +2554,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 184.15) (xy 91.44 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a7f9fde-fdca-4375-b2cd-2bf88e63456f")
+	)
+	(wire
+		(pts
 			(xy 31.75 153.67) (xy 31.75 158.75)
 		)
 		(stroke
@@ -2523,6 +2581,16 @@
 			(type default)
 		)
 		(uuid "2db649d1-0c95-4036-940b-4614e8080bf1")
+	)
+	(wire
+		(pts
+			(xy 129.54 184.15) (xy 129.54 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e7126cf-9c61-4b0d-9a52-406e3db9dc7f")
 	)
 	(wire
 		(pts
@@ -2596,6 +2664,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 168.91) (xy 109.22 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c2fdf32-0692-4d88-9ed6-80618207830a")
+	)
+	(wire
+		(pts
 			(xy 219.71 125.73) (xy 219.71 130.81)
 		)
 		(stroke
@@ -2646,6 +2724,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 184.15) (xy 120.65 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4364b2c2-b4b0-4510-aaa5-a6f546f549a9")
+	)
+	(wire
+		(pts
 			(xy 207.01 135.89) (xy 207.01 140.97)
 		)
 		(stroke
@@ -2686,6 +2774,36 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 184.15) (xy 100.33 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51df0e05-19b0-4a00-b3c9-73600e0d9a61")
+	)
+	(wire
+		(pts
+			(xy 138.43 186.69) (xy 138.43 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "523bcf27-5519-46a5-884b-54274a557413")
+	)
+	(wire
+		(pts
+			(xy 129.54 186.69) (xy 138.43 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "526f66d7-e908-4801-8685-df9fcac65de6")
+	)
+	(wire
+		(pts
 			(xy 64.77 45.72) (xy 78.74 45.72)
 		)
 		(stroke
@@ -2693,6 +2811,16 @@
 			(type default)
 		)
 		(uuid "54bb9902-3e7e-4bcc-ac2c-3900846fe250")
+	)
+	(wire
+		(pts
+			(xy 100.33 168.91) (xy 109.22 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "589bc9b1-f019-4433-b5d5-39a766452ae3")
 	)
 	(wire
 		(pts
@@ -2816,6 +2944,26 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 166.37) (xy 100.33 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bb85f96-2086-417f-89d6-bcd4fb06d265")
+	)
+	(wire
+		(pts
+			(xy 100.33 186.69) (xy 100.33 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c9702dc-1fde-4d81-a52d-45a4b0b47e2c")
+	)
+	(wire
+		(pts
 			(xy 163.83 95.25) (xy 166.37 95.25)
 		)
 		(stroke
@@ -2823,6 +2971,26 @@
 			(type default)
 		)
 		(uuid "6f5bb427-d624-439d-83b3-a1977bc1320a")
+	)
+	(wire
+		(pts
+			(xy 120.65 186.69) (xy 129.54 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70a7ee1b-7aea-417b-ab78-7a5a0d0c7776")
+	)
+	(wire
+		(pts
+			(xy 129.54 186.69) (xy 129.54 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7370e3cd-22ae-4fb6-ad4b-8e12acee5fa1")
 	)
 	(wire
 		(pts
@@ -2883,6 +3051,16 @@
 			(type default)
 		)
 		(uuid "7b474d45-ccf8-42e9-9a76-6fe46e68563b")
+	)
+	(wire
+		(pts
+			(xy 100.33 186.69) (xy 109.22 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b875636-fd60-4c09-90bc-9474278b63d0")
 	)
 	(wire
 		(pts
@@ -3356,6 +3534,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 186.69) (xy 100.33 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfad12cb-9978-496c-af18-c03fa0185f4d")
+	)
+	(wire
+		(pts
 			(xy 80.01 125.73) (xy 80.01 130.81)
 		)
 		(stroke
@@ -3363,6 +3551,16 @@
 			(type default)
 		)
 		(uuid "d1544e36-1aa8-4ab3-bda8-1f5e6c0b952f")
+	)
+	(wire
+		(pts
+			(xy 100.33 168.91) (xy 100.33 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4087c3d-eb83-4e95-8825-6c0bdfe61bde")
 	)
 	(wire
 		(pts
@@ -3747,6 +3945,54 @@
 		(uuid "72c6aa31-6495-4d58-8b09-011b1406ef5f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 158.3653 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "C2"
+		(shape input)
+		(at 100.33 189.23 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1836a17-a149-4f5a-9a3a-8b44ef9be7f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.33 194.6947 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "C1"
+		(shape input)
+		(at 100.33 171.45 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aeb708b9-21e8-46ed-b8b3-c627cd1d4479")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.33 176.9147 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4158,6 +4404,84 @@
 			(project "heater"
 				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 129.54 189.23 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d51d7cd-f2d8-4cec-841d-e1af6d09472b")
+		(property "Reference" "#PWR040"
+			(at 129.54 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 129.54 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 129.54 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e502831-be4a-4540-b4aa-372403ca181e")
+		)
+		(instances
+			(project "heater"
+				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -4734,7 +5058,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470nF"
+		(property "Value" "330nF"
 			(at 88.9 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4745,7 +5069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4"
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
 			(at 91.7448 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4778,7 +5102,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "MKP1J034706B00KSSD"
+		(property "Manufacturer Part Number" "MKP1O133306F00KSSD"
 			(at 92.71 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -4800,7 +5124,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "1928-1437-ND"
+		(property "Vendor Part Number" "1928-1444-ND"
 			(at 92.71 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -4821,6 +5145,85 @@
 			(project "heater"
 				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 109.22 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31dbd3a8-408b-4256-94e4-187cc0253b09")
+		(property "Reference" "H14"
+			(at 111.76 179.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MP"
+			(at 111.76 181.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 109.22 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 109.22 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9b989cc-9bfe-42c7-bfda-0ff650d7b95e")
+		)
+		(instances
+			(project "heater"
+				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
+					(reference "H14")
 					(unit 1)
 				)
 			)
@@ -5123,7 +5526,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470nF"
+		(property "Value" "330nF"
 			(at 60.96 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5134,7 +5537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4"
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
 			(at 63.8048 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -5167,7 +5570,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "MKP1J034706B00KSSD"
+		(property "Manufacturer Part Number" "MKP1O133306F00KSSD"
 			(at 64.77 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -5189,7 +5592,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "1928-1437-ND"
+		(property "Vendor Part Number" "1928-1444-ND"
 			(at 64.77 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -5348,7 +5751,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470nF"
+		(property "Value" "330nF"
 			(at 186.69 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5359,7 +5762,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4"
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
 			(at 189.5348 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -5392,7 +5795,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "MKP1J034706B00KSSD"
+		(property "Manufacturer Part Number" "MKP1O133306F00KSSD"
 			(at 190.5 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -5414,7 +5817,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "1928-1437-ND"
+		(property "Vendor Part Number" "1928-1444-ND"
 			(at 190.5 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -5708,6 +6111,85 @@
 			(project "heater"
 				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 138.43 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a1f818b-b558-4101-9f5b-9714fbf87814")
+		(property "Reference" "H17"
+			(at 140.97 179.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MP"
+			(at 140.97 181.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 138.43 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 138.43 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c79e759-30fc-4484-9e51-0da069281020")
+		)
+		(instances
+			(project "heater"
+				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
+					(reference "H17")
 					(unit 1)
 				)
 			)
@@ -6047,7 +6529,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470nF"
+		(property "Value" "330nF"
 			(at 144.78 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6058,7 +6540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4"
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
 			(at 147.6248 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -6091,7 +6573,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "MKP1J034706B00KSSD"
+		(property "Manufacturer Part Number" "MKP1O133306F00KSSD"
 			(at 148.59 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -6113,7 +6595,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "1928-1437-ND"
+		(property "Vendor Part Number" "1928-1444-ND"
 			(at 148.59 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -6287,7 +6769,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_THT:L_Toroid_Vertical_L31.8mm_W15.9mm_P13.50mm_Bourns_5700"
+		(property "Footprint" "footprints:L_Toroid_Vertical_L39.9mm_W32.4mm_P30.0mm"
 			(at 166.37 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6392,7 +6874,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470nF"
+		(property "Value" "330nF"
 			(at 200.66 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6403,7 +6885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4"
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
 			(at 203.5048 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -6436,7 +6918,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "MKP1J034706B00KSSD"
+		(property "Manufacturer Part Number" "MKP1O133306F00KSSD"
 			(at 204.47 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -6458,7 +6940,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "1928-1437-ND"
+		(property "Vendor Part Number" "1928-1444-ND"
 			(at 204.47 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -6868,6 +7350,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 100.33 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c8bc8a1-6bd3-4e24-89fa-c58916372ce6")
+		(property "Reference" "H10"
+			(at 102.87 161.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MP"
+			(at 102.87 163.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 100.33 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 100.33 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f4eec46-fd13-4fcd-82e8-0b9b9c0eb359")
+		)
+		(instances
+			(project "heater"
+				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
+					(reference "H10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 31.75 172.72 90)
 		(unit 1)
@@ -7242,7 +7803,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470nF"
+		(property "Value" "330nF"
 			(at 214.63 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7253,7 +7814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4"
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
 			(at 217.4748 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -7286,7 +7847,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "MKP1J034706B00KSSD"
+		(property "Manufacturer Part Number" "MKP1O133306F00KSSD"
 			(at 218.44 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7308,7 +7869,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "1928-1437-ND"
+		(property "Vendor Part Number" "1928-1444-ND"
 			(at 218.44 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7666,7 +8227,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470nF"
+		(property "Value" "330nF"
 			(at 242.57 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7677,7 +8238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4"
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
 			(at 245.4148 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -7710,7 +8271,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "MKP1J034706B00KSSD"
+		(property "Manufacturer Part Number" "MKP1O133306F00KSSD"
 			(at 246.38 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7732,7 +8293,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "1928-1437-ND"
+		(property "Vendor Part Number" "1928-1444-ND"
 			(at 246.38 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8091,7 +8652,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470nF"
+		(property "Value" "330nF"
 			(at 158.75 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8102,7 +8663,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4"
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
 			(at 161.5948 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8135,7 +8696,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "MKP1J034706B00KSSD"
+		(property "Manufacturer Part Number" "MKP1O133306F00KSSD"
 			(at 162.56 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8157,7 +8718,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "1928-1437-ND"
+		(property "Vendor Part Number" "1928-1444-ND"
 			(at 162.56 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8438,7 +8999,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470nF"
+		(property "Value" "330nF"
 			(at 116.84 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8449,7 +9010,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4"
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
 			(at 119.6848 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8482,7 +9043,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "MKP1J034706B00KSSD"
+		(property "Manufacturer Part Number" "MKP1O133306F00KSSD"
 			(at 120.65 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8504,7 +9065,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "1928-1437-ND"
+		(property "Vendor Part Number" "1928-1444-ND"
 			(at 120.65 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8561,7 +9122,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_THT:L_Toroid_Vertical_L31.8mm_W15.9mm_P13.50mm_Bourns_5700"
+		(property "Footprint" "footprints:L_Toroid_Vertical_L39.9mm_W32.4mm_P30.0mm"
 			(at 133.35 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -9073,6 +9634,243 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 120.65 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab2f718a-aaaf-4951-a215-327b52eeb42d")
+		(property "Reference" "H15"
+			(at 123.19 179.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MP"
+			(at 123.19 181.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 120.65 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 120.65 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "49abbf43-811e-4378-9a6a-3588ea895494")
+		)
+		(instances
+			(project "heater"
+				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
+					(reference "H15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 109.22 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b400504c-ac1b-42b6-adb5-2b8831291c66")
+		(property "Reference" "H11"
+			(at 111.76 161.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MP"
+			(at 111.76 163.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 109.22 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 109.22 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b21d8072-193c-4859-a722-c7698445fd16")
+		)
+		(instances
+			(project "heater"
+				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
+					(reference "H11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 91.44 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5168620-941f-4688-9cb9-fac740c92159")
+		(property "Reference" "H9"
+			(at 93.98 161.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MP"
+			(at 93.98 163.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 91.44 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 91.44 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17a1d445-6ec3-4641-9eaf-52e58e2632ae")
+		)
+		(instances
+			(project "heater"
+				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
+					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 55.88 88.9 270)
 		(unit 1)
@@ -9426,7 +10224,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470nF"
+		(property "Value" "330nF"
 			(at 228.6 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9437,7 +10235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4"
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
 			(at 231.4448 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -9470,7 +10268,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "MKP1J034706B00KSSD"
+		(property "Manufacturer Part Number" "MKP1O133306F00KSSD"
 			(at 232.41 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -9492,7 +10290,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "1928-1437-ND"
+		(property "Vendor Part Number" "1928-1444-ND"
 			(at 232.41 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -9943,7 +10741,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470nF"
+		(property "Value" "330nF"
 			(at 74.93 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9954,7 +10752,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4"
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
 			(at 77.7748 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -9987,7 +10785,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "MKP1J034706B00KSSD"
+		(property "Manufacturer Part Number" "MKP1O133306F00KSSD"
 			(at 78.74 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -10009,7 +10807,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "1928-1437-ND"
+		(property "Vendor Part Number" "1928-1444-ND"
 			(at 78.74 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -10145,6 +10943,85 @@
 			(project "heater"
 				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 100.33 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d704e140-f18e-4359-96c3-824fd72cef97")
+		(property "Reference" "H13"
+			(at 102.87 179.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MP"
+			(at 102.87 181.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 100.33 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 100.33 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1edd99ed-3368-4702-89d4-5fe29216689e")
+		)
+		(instances
+			(project "heater"
+				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
+					(reference "H13")
 					(unit 1)
 				)
 			)
@@ -10292,7 +11169,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470nF"
+		(property "Value" "330nF"
 			(at 130.81 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10303,7 +11180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4"
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
 			(at 133.6548 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -10336,7 +11213,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "MKP1J034706B00KSSD"
+		(property "Manufacturer Part Number" "MKP1O133306F00KSSD"
 			(at 134.62 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -10358,7 +11235,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "1928-1437-ND"
+		(property "Vendor Part Number" "1928-1444-ND"
 			(at 134.62 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -10760,7 +11637,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470nF"
+		(property "Value" "330nF"
 			(at 172.72 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10771,7 +11648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4"
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
 			(at 175.5648 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -10804,7 +11681,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "MKP1J034706B00KSSD"
+		(property "Manufacturer Part Number" "MKP1O133306F00KSSD"
 			(at 176.53 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -10826,7 +11703,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "1928-1437-ND"
+		(property "Vendor Part Number" "1928-1444-ND"
 			(at 176.53 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -11064,7 +11941,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470nF"
+		(property "Value" "330nF"
 			(at 102.87 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11075,7 +11952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4"
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
 			(at 105.7148 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11108,7 +11985,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "MKP1J034706B00KSSD"
+		(property "Manufacturer Part Number" "MKP1O133306F00KSSD"
 			(at 106.68 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -11130,7 +12007,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "1928-1437-ND"
+		(property "Vendor Part Number" "1928-1444-ND"
 			(at 106.68 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -11494,6 +12371,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 129.54 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa5c9f23-5777-43e3-bf58-76cbf9e5492f")
+		(property "Reference" "H16"
+			(at 132.08 179.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MP"
+			(at 132.08 181.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 129.54 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 129.54 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "846276ac-4dec-4630-815e-d8c6041881aa")
+		)
+		(instances
+			(project "heater"
+				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
+					(reference "H16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 91.44 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcfb191f-ee8a-459f-8ecf-0d9e8adeaa5b")
+		(property "Reference" "H12"
+			(at 93.98 179.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MP"
+			(at 93.98 181.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 91.44 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 91.44 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a2a8875e-a069-4ba0-b696-d63b3fbc19ac")
+		)
+		(instances
+			(project "heater"
+				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
+					(reference "H12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 46.99 179.07 0)
 		(mirror y)
@@ -11574,7 +12609,7 @@
 	)
 	(sheet
 		(at 138.43 154.94)
-		(size 22.86 21.59)
+		(size 22.86 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -11600,7 +12635,7 @@
 			)
 		)
 		(property "Sheetfile" "fan_control.kicad_sch"
-			(at 138.43 177.1146 0)
+			(at 138.43 165.6846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

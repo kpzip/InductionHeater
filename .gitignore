@@ -46,3 +46,6 @@ outputs/
 .history/
 .history_old/
 .history_trim/
+
+# ibom
+*.html

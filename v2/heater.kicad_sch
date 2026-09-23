@@ -160,194 +160,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:D_Schottky"
 			(pin_numbers
 				(hide yes)
@@ -475,172 +287,6 @@
 				)
 			)
 			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:D_Zener"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Zener"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Zener diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_Zener_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Zener_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1248,121 +894,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:Heatsink"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "HS"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Heatsink"
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.3048 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0.3048 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Heatsink"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "thermal heat temperature"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Heatsink_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Heatsink_0_1"
-				(polyline
-					(pts
-						(xy -0.3302 1.27) (xy -0.9652 1.27) (xy -0.9652 3.81) (xy -1.6002 3.81) (xy -1.6002 1.27) (xy -2.2352 1.27)
-						(xy -2.2352 3.81) (xy -2.8702 3.81) (xy -2.8702 0) (xy -0.9652 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3302 1.27) (xy -0.3302 3.81) (xy 0.3048 3.81) (xy 0.3048 1.27) (xy 0.9398 1.27) (xy 0.9398 3.81)
-						(xy 1.5748 3.81) (xy 1.5748 1.27) (xy 2.2098 1.27) (xy 2.2098 3.81) (xy 2.8448 3.81) (xy 2.8448 0)
-						(xy -0.9652 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -1476,307 +1007,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_FET:Q_NMOS_GDS"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NMOS_GDS"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, gate/drain/source"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Q_NMOS_GDS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_NMOS_GDS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2043,73 +1273,55 @@
 		)
 	)
 	(junction
-		(at 196.85 60.96)
+		(at 175.26 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0096df38-7216-4617-8dbe-a3711856f5a8")
 	)
 	(junction
-		(at 130.81 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0230707d-b470-40b2-b867-bd97a08164ad")
-	)
-	(junction
-		(at 294.64 60.96)
+		(at 273.05 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "084ef986-1ffa-43d5-9e50-a42128099569")
 	)
 	(junction
-		(at 252.73 60.96)
+		(at 231.14 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12e4fe41-5d7f-4427-9253-da0c8347e2b5")
 	)
 	(junction
-		(at 266.7 60.96)
+		(at 245.11 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34bf6b04-de5d-45c3-ae79-ef8423f63b34")
 	)
 	(junction
-		(at 142.24 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "461a3913-e281-427c-a3f5-57a2b0ce4a15")
-	)
-	(junction
-		(at 280.67 73.66)
+		(at 259.08 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46581f09-7262-41f2-aa46-b53668efd43c")
 	)
 	(junction
-		(at 182.88 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d1ccc69-79f4-4579-9f84-57fc2324de2d")
-	)
-	(junction
-		(at 224.79 73.66)
+		(at 203.2 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4df772e6-daa6-4e03-a41f-8f2a000207a0")
 	)
 	(junction
-		(at 196.85 73.66)
+		(at 175.26 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f3701d0-4642-4294-b248-2d9ee1a0017a")
 	)
 	(junction
-		(at 238.76 73.66)
+		(at 217.17 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56234bdd-c89d-4122-943d-43a20989cb47")
 	)
 	(junction
-		(at 252.73 73.66)
+		(at 231.14 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56cca9db-10b0-46ab-af00-279e6265d934")
@@ -2121,82 +1333,58 @@
 		(uuid "5850aab7-9e9b-4858-93e7-5e5792d10984")
 	)
 	(junction
-		(at 182.88 73.66)
+		(at 161.29 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d3ed2c7-51ba-4854-bd91-a38c6187b3fb")
 	)
 	(junction
-		(at 154.94 60.96)
+		(at 133.35 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fc1fecf-f54d-4ec7-81b7-f2f529ca12db")
 	)
 	(junction
-		(at 241.3 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "707216fc-c1ea-4693-be9f-f88770e89037")
-	)
-	(junction
-		(at 127 73.66)
+		(at 105.41 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79bbd75b-f3de-4192-9043-b174db327a57")
 	)
 	(junction
-		(at 182.88 60.96)
+		(at 161.29 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f043e86-44c7-4722-ab8d-565f8cd0b655")
 	)
 	(junction
-		(at 168.91 73.66)
+		(at 147.32 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81396d40-ebca-46c5-bc57-1984c312965d")
 	)
 	(junction
-		(at 281.94 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81bec613-17f4-4a2a-ab90-7aaeedc46598")
-	)
-	(junction
-		(at 154.94 73.66)
+		(at 133.35 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82e5a1c2-f0da-4e4b-b70d-0b8fb931d4d4")
 	)
 	(junction
-		(at 195.58 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f3adeb1-3cd8-4b64-8064-b1fdf5778905")
-	)
-	(junction
-		(at 266.7 73.66)
+		(at 245.11 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f77ce52-4f21-42b5-a8bc-af5ab83ba40b")
 	)
 	(junction
-		(at 238.76 60.96)
+		(at 217.17 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "961c9fa3-4c66-44c0-aaba-7227821a3fec")
 	)
 	(junction
-		(at 210.82 60.96)
+		(at 189.23 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9969ba1a-7fe8-4b08-bcb8-72b662da6ce4")
-	)
-	(junction
-		(at 162.56 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aae9e5e2-1ac2-426e-a8ab-26ad83808b77")
 	)
 	(junction
 		(at 162.56 214.63)
@@ -2205,116 +1393,74 @@
 		(uuid "acb8bdda-e4b3-4a98-b141-91e463141eb4")
 	)
 	(junction
-		(at 261.62 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af5d68e9-9d1c-4a23-a23a-853dc3dfec46")
-	)
-	(junction
-		(at 294.64 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b06268a4-3946-44ae-a0b3-8f0bf2bf78ef")
-	)
-	(junction
 		(at 162.56 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2df986b-8ef7-487b-a075-be97929dae52")
 	)
 	(junction
-		(at 294.64 73.66)
+		(at 273.05 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b97850d6-13a9-4735-856a-69f1b81d7470")
 	)
 	(junction
-		(at 140.97 73.66)
+		(at 119.38 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c18e42ac-0fd9-4759-a8f6-ea6169c2fdf3")
 	)
 	(junction
-		(at 224.79 60.96)
+		(at 203.2 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3756262-345b-4a02-8fc2-12c78a035e30")
 	)
 	(junction
-		(at 168.91 60.96)
+		(at 147.32 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7c96c09-2fd4-44ce-9104-f1e1c5d075fa")
 	)
 	(junction
-		(at 140.97 60.96)
+		(at 119.38 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8f34f5a-e3dc-4700-ba92-c7649583d656")
 	)
 	(junction
-		(at 280.67 60.96)
+		(at 259.08 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d13c164f-cfd3-4e72-a707-18bb97e65cb1")
 	)
 	(junction
-		(at 127 60.96)
+		(at 105.41 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d153efe2-1869-4b6e-ad3b-466b30743a9a")
 	)
 	(junction
-		(at 118.11 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7a4a3db-70d7-4686-b9fe-86b80c749c45")
-	)
-	(junction
-		(at 308.61 60.96)
+		(at 287.02 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9165461-968c-4411-b1fe-8490371330f0")
 	)
 	(junction
-		(at 241.3 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db746c7d-6e44-45f7-852b-c957f0aaa478")
-	)
-	(junction
-		(at 307.34 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e26ef77c-915f-4841-8e10-e99543e00a7b")
-	)
-	(junction
-		(at 210.82 73.66)
+		(at 189.23 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e722db6b-4540-4637-990f-46a03bc3f9fd")
 	)
 	(junction
-		(at 182.88 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2af00d7-5dc6-4e3b-a41d-ca52d8ff92e3")
-	)
-	(junction
-		(at 308.61 73.66)
+		(at 287.02 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f55b1c4d-259c-49d6-85e0-b6cc406c10c3")
 	)
-	(junction
-		(at 228.6 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7239381-428b-4a20-b69b-21db3a9977b4")
-	)
 	(wire
 		(pts
-			(xy 266.7 60.96) (xy 266.7 63.5)
+			(xy 245.11 120.65) (xy 245.11 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2324,17 +1470,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 140.97) (xy 187.96 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "014b9307-418e-4439-a2cf-af844fe21952")
-	)
-	(wire
-		(pts
-			(xy 252.73 73.66) (xy 266.7 73.66)
+			(xy 231.14 133.35) (xy 245.11 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2344,23 +1480,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 73.66) (xy 127 73.66)
+			(xy 95.25 133.35) (xy 105.41 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "031f4ff3-9852-4ea4-beb7-91144d87fd01")
-	)
-	(wire
-		(pts
-			(xy 118.11 135.89) (xy 118.11 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0364a43b-f212-4302-9ce0-df9bfb40816b")
 	)
 	(wire
 		(pts
@@ -2374,7 +1500,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 73.66) (xy 224.79 73.66)
+			(xy 189.23 133.35) (xy 203.2 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2384,7 +1510,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 60.96) (xy 182.88 63.5)
+			(xy 161.29 120.65) (xy 161.29 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2424,7 +1550,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 71.12) (xy 127 73.66)
+			(xy 105.41 130.81) (xy 105.41 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2434,7 +1560,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 71.12) (xy 308.61 73.66)
+			(xy 287.02 130.81) (xy 287.02 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2444,7 +1570,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 60.96) (xy 196.85 60.96)
+			(xy 161.29 120.65) (xy 175.26 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2454,7 +1580,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 63.5) (xy 127 60.96)
+			(xy 105.41 123.19) (xy 105.41 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2464,7 +1590,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 60.96) (xy 280.67 63.5)
+			(xy 259.08 120.65) (xy 259.08 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2474,7 +1600,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 95.25) (xy 228.6 104.14)
+			(xy 105.41 152.4) (xy 105.41 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2484,7 +1610,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 60.96) (xy 252.73 60.96)
+			(xy 217.17 120.65) (xy 231.14 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2494,7 +1620,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 60.96) (xy 311.15 60.96)
+			(xy 287.02 120.65) (xy 289.56 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2504,27 +1630,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 154.94) (xy 248.92 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2174f2f6-b63e-427d-8106-074fb3a9df61")
-	)
-	(wire
-		(pts
-			(xy 228.6 123.19) (xy 228.6 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21c1ab05-553e-482b-868b-780693dc7a0c")
-	)
-	(wire
-		(pts
-			(xy 168.91 60.96) (xy 182.88 60.96)
+			(xy 147.32 120.65) (xy 161.29 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2534,23 +1640,13 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 60.96) (xy 224.79 63.5)
+			(xy 203.2 120.65) (xy 203.2 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2514c945-02d0-4c3c-b545-56cd3e564f96")
-	)
-	(wire
-		(pts
-			(xy 105.41 135.89) (xy 105.41 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29a59417-9b1f-416b-911e-9cf751adbfc0")
 	)
 	(wire
 		(pts
@@ -2574,7 +1670,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 60.96) (xy 210.82 60.96)
+			(xy 175.26 120.65) (xy 189.23 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2594,47 +1690,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 111.76) (xy 228.6 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f061317-dd18-4877-a52f-edf30e312fff")
-	)
-	(wire
-		(pts
-			(xy 241.3 107.95) (xy 241.3 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32c82bdd-1f03-41dd-be60-0263552bc3c2")
-	)
-	(wire
-		(pts
-			(xy 154.94 148.59) (xy 154.94 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3392de70-0b8e-48a1-93e4-3cd818efb70c")
-	)
-	(wire
-		(pts
-			(xy 118.11 120.65) (xy 118.11 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33a31f73-e50e-4b17-9230-0f2ba77ebb7c")
-	)
-	(wire
-		(pts
-			(xy 280.67 73.66) (xy 280.67 71.12)
+			(xy 259.08 133.35) (xy 259.08 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2644,23 +1700,13 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 60.96) (xy 308.61 60.96)
+			(xy 245.11 120.65) (xy 287.02 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "367cc7e8-5701-4b2d-815a-6de9419fd201")
-	)
-	(wire
-		(pts
-			(xy 241.3 119.38) (xy 241.3 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38a0db52-8006-4f56-82ee-ba0f208bab1c")
 	)
 	(wire
 		(pts
@@ -2674,53 +1720,13 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 153.67) (xy 281.94 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3da0104c-6e94-497a-8290-6f69e809db30")
-	)
-	(wire
-		(pts
-			(xy 118.11 113.03) (xy 118.11 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3db4a296-c9b3-413e-aeb5-96596d21ed20")
-	)
-	(wire
-		(pts
-			(xy 241.3 95.25) (xy 241.3 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "418fd2d3-91c1-43d1-8335-57b33a0b81ce")
-	)
-	(wire
-		(pts
-			(xy 154.94 60.96) (xy 154.94 63.5)
+			(xy 133.35 120.65) (xy 133.35 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "42caeaa1-1bac-4608-b1b5-122e32d6aaf2")
-	)
-	(wire
-		(pts
-			(xy 228.6 146.05) (xy 228.6 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43086f4d-899f-43e2-85f0-1269c28f9b49")
 	)
 	(wire
 		(pts
@@ -2734,27 +1740,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 163.83) (xy 269.24 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43f19e95-de61-43a5-8437-1aeb92a0ff90")
-	)
-	(wire
-		(pts
-			(xy 130.81 123.19) (xy 142.24 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45479313-faa1-42fa-b747-af67dd67f54d")
-	)
-	(wire
-		(pts
-			(xy 210.82 60.96) (xy 224.79 60.96)
+			(xy 189.23 120.65) (xy 203.2 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2764,13 +1750,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 135.89) (xy 130.81 140.97)
+			(xy 105.41 118.11) (xy 105.41 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4bb9deef-d7c9-4255-a706-20168d175630")
+		(uuid "514cd4f5-5a0b-4c95-b904-417c3b0a814d")
 	)
 	(wire
 		(pts
@@ -2804,7 +1790,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 73.66) (xy 140.97 73.66)
+			(xy 105.41 133.35) (xy 119.38 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2824,17 +1810,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 111.76) (xy 195.58 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59a60dbd-6d23-4e09-b687-aba17a15c934")
-	)
-	(wire
-		(pts
-			(xy 196.85 60.96) (xy 196.85 63.5)
+			(xy 175.26 120.65) (xy 175.26 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2854,7 +1830,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 60.96) (xy 252.73 63.5)
+			(xy 231.14 120.65) (xy 231.14 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2864,7 +1840,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 73.66) (xy 154.94 71.12)
+			(xy 133.35 133.35) (xy 133.35 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2874,7 +1850,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 73.66) (xy 196.85 73.66)
+			(xy 161.29 133.35) (xy 175.26 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2884,27 +1860,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 123.19) (xy 294.64 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "605aa450-22a8-48a9-96a0-7aacf5a42d19")
-	)
-	(wire
-		(pts
-			(xy 241.3 128.27) (xy 241.3 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "639b59a9-d56b-47ab-b63f-dead567fa6c3")
-	)
-	(wire
-		(pts
-			(xy 140.97 73.66) (xy 140.97 71.12)
+			(xy 119.38 133.35) (xy 119.38 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2914,33 +1870,13 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 123.19) (xy 281.94 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64aac4eb-6bf9-4bb9-8408-ebf03d913eaa")
-	)
-	(wire
-		(pts
-			(xy 140.97 60.96) (xy 154.94 60.96)
+			(xy 119.38 120.65) (xy 133.35 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "680bec58-e4da-437f-82e2-bb75379a579a")
-	)
-	(wire
-		(pts
-			(xy 105.41 128.27) (xy 105.41 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "697041a9-a97c-4632-a02c-0f87cd78fd57")
 	)
 	(wire
 		(pts
@@ -2964,16 +1900,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 123.19) (xy 228.6 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f5bb427-d624-439d-83b3-a1977bc1320a")
-	)
-	(wire
-		(pts
 			(xy 182.88 214.63) (xy 191.77 214.63)
 		)
 		(stroke
@@ -2994,37 +1920,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 105.41) (xy 241.3 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "747205f0-f39a-4f30-bb3e-4e824aea6b08")
-	)
-	(wire
-		(pts
-			(xy 182.88 135.89) (xy 182.88 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75a54b19-f17d-4fb6-85c9-3e3c36675657")
-	)
-	(wire
-		(pts
-			(xy 142.24 123.19) (xy 162.56 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76b54cd1-718d-45cb-9ab3-5ca673d25885")
-	)
-	(wire
-		(pts
-			(xy 168.91 73.66) (xy 182.88 73.66)
+			(xy 147.32 133.35) (xy 161.29 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3034,7 +1930,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 73.66) (xy 311.15 73.66)
+			(xy 287.02 133.35) (xy 289.56 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3044,7 +1940,17 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 71.12) (xy 252.73 73.66)
+			(xy 105.41 133.35) (xy 105.41 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ad6b577-0723-4174-a098-4003a890812c")
+	)
+	(wire
+		(pts
+			(xy 231.14 130.81) (xy 231.14 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3064,27 +1970,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 135.89) (xy 294.64 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f118024-fbf4-497b-a578-c95c67a3d9f9")
-	)
-	(wire
-		(pts
-			(xy 154.94 163.83) (xy 154.94 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8124858d-f2c6-4196-b3ba-12ef8aacb2f5")
-	)
-	(wire
-		(pts
-			(xy 252.73 73.66) (xy 238.76 73.66)
+			(xy 231.14 133.35) (xy 217.17 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3094,7 +1980,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 60.96) (xy 140.97 63.5)
+			(xy 119.38 120.65) (xy 119.38 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3104,7 +1990,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 73.66) (xy 210.82 73.66)
+			(xy 175.26 133.35) (xy 189.23 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3114,27 +2000,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 123.19) (xy 162.56 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "872c8887-d326-4be0-bc4e-c14f9b8a2937")
-	)
-	(wire
-		(pts
-			(xy 118.11 123.19) (xy 130.81 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8823e705-a69b-41e1-b14b-8f5c4fae30b3")
-	)
-	(wire
-		(pts
-			(xy 182.88 73.66) (xy 182.88 71.12)
+			(xy 161.29 133.35) (xy 161.29 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3144,17 +2010,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 148.59) (xy 269.24 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c206fcf-f75e-43a9-9f79-9d2a79155199")
-	)
-	(wire
-		(pts
-			(xy 238.76 73.66) (xy 238.76 71.12)
+			(xy 217.17 133.35) (xy 217.17 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3164,17 +2020,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 139.7) (xy 175.26 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e86014c-f5fc-4d94-9573-c074b667d8ca")
-	)
-	(wire
-		(pts
-			(xy 266.7 73.66) (xy 308.61 73.66)
+			(xy 245.11 133.35) (xy 287.02 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3184,7 +2030,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 60.96) (xy 168.91 63.5)
+			(xy 147.32 120.65) (xy 147.32 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3194,33 +2040,13 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 60.96) (xy 294.64 63.5)
+			(xy 273.05 120.65) (xy 273.05 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "934b2e0a-9462-41fe-b909-0a06bd7ab2f8")
-	)
-	(wire
-		(pts
-			(xy 261.62 144.78) (xy 261.62 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "938600ba-5472-4396-ace1-8772650006ff")
-	)
-	(wire
-		(pts
-			(xy 162.56 123.19) (xy 182.88 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94d7c176-b80a-4724-8b70-6f7f075781b8")
 	)
 	(wire
 		(pts
@@ -3234,37 +2060,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 128.27) (xy 320.04 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "952abf98-650a-4319-a340-b24b959f2034")
-	)
-	(wire
-		(pts
-			(xy 304.8 110.49) (xy 307.34 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95b3003e-780b-469b-ae91-6de3fb9ff031")
-	)
-	(wire
-		(pts
-			(xy 307.34 135.89) (xy 307.34 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ac8437e-ef32-4e47-8774-0759e4bceedb")
-	)
-	(wire
-		(pts
-			(xy 224.79 73.66) (xy 224.79 71.12)
+			(xy 203.2 133.35) (xy 203.2 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3274,7 +2070,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 60.96) (xy 238.76 60.96)
+			(xy 203.2 120.65) (xy 217.17 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3284,17 +2080,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 146.05) (xy 195.58 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a313ee89-9d7e-4749-a76b-3347675a103d")
-	)
-	(wire
-		(pts
-			(xy 154.94 73.66) (xy 168.91 73.66)
+			(xy 133.35 133.35) (xy 147.32 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3314,7 +2100,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 73.66) (xy 168.91 71.12)
+			(xy 147.32 133.35) (xy 147.32 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3324,17 +2110,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 149.86) (xy 167.64 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adf92c31-d38b-40b7-912f-ac7ecbd6226a")
-	)
-	(wire
-		(pts
-			(xy 210.82 60.96) (xy 210.82 63.5)
+			(xy 189.23 120.65) (xy 189.23 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3344,27 +2120,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 123.19) (xy 198.12 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4aed6ad-584c-491f-8641-7714056494dd")
-	)
-	(wire
-		(pts
-			(xy 248.92 139.7) (xy 248.92 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4f01209-67c5-4302-bd1b-62b08bebb168")
-	)
-	(wire
-		(pts
-			(xy 195.58 95.25) (xy 195.58 104.14)
+			(xy 105.41 101.6) (xy 105.41 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3374,17 +2130,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 128.27) (xy 182.88 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7ae235b-e18e-4b59-b504-df0fed96ff1e")
-	)
-	(wire
-		(pts
-			(xy 252.73 60.96) (xy 266.7 60.96)
+			(xy 231.14 120.65) (xy 245.11 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3394,43 +2140,13 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 73.66) (xy 238.76 73.66)
+			(xy 203.2 133.35) (xy 217.17 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bd16ad05-2906-4d9d-88d5-5f4917f37856")
-	)
-	(wire
-		(pts
-			(xy 130.81 123.19) (xy 130.81 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdad5473-2c15-4d90-97ac-cc4f0c1db6c6")
-	)
-	(wire
-		(pts
-			(xy 105.41 107.95) (xy 182.88 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c008fb2e-e159-4d7f-b677-345d6655ee3d")
-	)
-	(wire
-		(pts
-			(xy 261.62 149.86) (xy 256.54 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c110d1d3-20ac-43d0-99db-75fc535ef0c9")
 	)
 	(wire
 		(pts
@@ -3444,7 +2160,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 73.66) (xy 154.94 73.66)
+			(xy 119.38 133.35) (xy 133.35 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3454,7 +2170,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 60.96) (xy 168.91 60.96)
+			(xy 133.35 120.65) (xy 147.32 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3474,17 +2190,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 144.78) (xy 162.56 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c828c509-7854-445b-90fc-aff3746a79ac")
-	)
-	(wire
-		(pts
-			(xy 210.82 73.66) (xy 210.82 71.12)
+			(xy 189.23 133.35) (xy 189.23 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3494,37 +2200,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 128.27) (xy 307.34 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c931a59d-2e52-4c4b-9d8d-ad38a3cda1d7")
-	)
-	(wire
-		(pts
-			(xy 320.04 135.89) (xy 320.04 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc72b33d-27a1-42f5-adfc-24ca45f26bb3")
-	)
-	(wire
-		(pts
-			(xy 142.24 123.19) (xy 142.24 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cca8c04e-119d-4da2-807b-291b1c904592")
-	)
-	(wire
-		(pts
-			(xy 294.64 73.66) (xy 294.64 71.12)
+			(xy 273.05 133.35) (xy 273.05 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3544,16 +2220,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 153.67) (xy 142.24 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1544e36-1aa8-4ab3-bda8-1f5e6c0b952f")
-	)
-	(wire
-		(pts
 			(xy 162.56 196.85) (xy 162.56 199.39)
 		)
 		(stroke
@@ -3564,57 +2230,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 140.97) (xy 236.22 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d42a1751-8761-4b9a-8e20-c6fb73e4ebe4")
-	)
-	(wire
-		(pts
-			(xy 118.11 110.49) (xy 120.65 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d698fe89-d1ad-4445-8386-d9aae7edf49e")
-	)
-	(wire
-		(pts
-			(xy 307.34 120.65) (xy 307.34 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d80caf0e-5bf0-41a4-b9a4-4610ed8593f4")
-	)
-	(wire
-		(pts
-			(xy 175.26 154.94) (xy 175.26 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8f67b7d-20f6-4ecf-8eaa-1ee52e897336")
-	)
-	(wire
-		(pts
-			(xy 182.88 119.38) (xy 182.88 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd6f8478-f1c8-4d59-afe4-6726e7b8403c")
-	)
-	(wire
-		(pts
-			(xy 116.84 60.96) (xy 127 60.96)
+			(xy 95.25 120.65) (xy 105.41 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3624,27 +2240,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 113.03) (xy 307.34 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df6bcc7e-6d2d-4d6c-bb5a-cd84e426cdb3")
-	)
-	(wire
-		(pts
-			(xy 142.24 158.75) (xy 147.32 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e05378b4-4492-41a1-9d3c-54c9a2acfc6e")
-	)
-	(wire
-		(pts
-			(xy 266.7 73.66) (xy 266.7 71.12)
+			(xy 245.11 133.35) (xy 245.11 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3654,33 +2250,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 107.95) (xy 182.88 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5126648-834b-47fb-a914-5af16c7d36eb")
-	)
-	(wire
-		(pts
-			(xy 308.61 60.96) (xy 308.61 63.5)
+			(xy 287.02 120.65) (xy 287.02 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e58ab8a3-c61b-4caf-96fb-77d05abc82eb")
-	)
-	(wire
-		(pts
-			(xy 261.62 123.19) (xy 261.62 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e631b9b3-2fe5-4740-989a-0cbb917de3bf")
 	)
 	(wire
 		(pts
@@ -3694,27 +2270,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 128.27) (xy 118.11 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea1e081f-a6b8-4a73-a8da-03fc9280dd06")
-	)
-	(wire
-		(pts
-			(xy 195.58 123.19) (xy 195.58 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee57e914-d85a-4832-85c7-416553216d6c")
-	)
-	(wire
-		(pts
-			(xy 238.76 60.96) (xy 238.76 63.5)
+			(xy 217.17 120.65) (xy 217.17 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3724,7 +2280,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 73.66) (xy 196.85 71.12)
+			(xy 175.26 133.35) (xy 175.26 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3734,73 +2290,13 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 123.19) (xy 307.34 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4aa5aee-294e-4b48-be05-f85d487ee76b")
-	)
-	(wire
-		(pts
-			(xy 127 60.96) (xy 140.97 60.96)
+			(xy 105.41 120.65) (xy 119.38 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f4e601ef-03b8-4b7b-b731-f01c9a332401")
-	)
-	(wire
-		(pts
-			(xy 182.88 95.25) (xy 182.88 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f545c81d-a657-4b10-882b-85cd58e1dfba")
-	)
-	(wire
-		(pts
-			(xy 281.94 158.75) (xy 276.86 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6cd2555-81f0-42dc-82a2-bd5ccb281a42")
-	)
-	(wire
-		(pts
-			(xy 182.88 105.41) (xy 182.88 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7912590-1338-4104-9a6c-9a597b07db3c")
-	)
-	(wire
-		(pts
-			(xy 241.3 135.89) (xy 241.3 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8b89184-afb4-43e2-becf-a737386a42e0")
-	)
-	(wire
-		(pts
-			(xy 320.04 107.95) (xy 241.3 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd62f891-c198-4fe7-8e19-11d0c3123533")
 	)
 	(wire
 		(pts
@@ -3814,79 +2310,7 @@
 	)
 	(global_label "C2"
 		(shape input)
-		(at 120.65 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1b0e7036-fa1a-4e90-a3e2-93baf97d7656")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.1147 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "C2"
-		(shape input)
-		(at 269.24 148.59 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2201e2ab-3019-4f8d-bbea-3105adfd54f1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.24 143.1253 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "C2"
-		(shape input)
-		(at 248.92 139.7 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "31281ae2-193a-4266-899f-6e956be533da")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.92 134.2353 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "C2"
-		(shape input)
-		(at 116.84 73.66 180)
+		(at 95.25 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3896,55 +2320,7 @@
 		)
 		(uuid "334b2855-ab78-498c-9852-08300dc652b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.3753 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "C1"
-		(shape input)
-		(at 198.12 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "59236448-101f-476c-8ab5-394ae1f23204")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.5847 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "C2"
-		(shape input)
-		(at 226.06 123.19 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "72c6aa31-6495-4d58-8b09-011b1406ef5f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.5953 123.19 0)
+			(at 89.7853 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4006,55 +2382,7 @@
 	)
 	(global_label "C1"
 		(shape input)
-		(at 304.8 110.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d9027a59-9261-49b7-98ab-f327bceb5cc8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 299.3353 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "C1"
-		(shape input)
-		(at 175.26 139.7 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dab66f2e-d3f7-4ae1-82ae-87d9b30a601d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.26 134.2353 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "C1"
-		(shape input)
-		(at 116.84 60.96 180)
+		(at 95.25 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4064,7 +2392,7 @@
 		)
 		(uuid "de2dddcd-1cb4-402b-a44f-ec18f2903614")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.3753 60.96 0)
+			(at 89.7853 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4073,339 +2401,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "C1"
-		(shape input)
-		(at 154.94 148.59 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f4febbd8-0fcd-4efc-986a-fd7c945b2573")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.94 143.1253 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "000d6c04-9676-4fe9-bfce-020f0b7b7ee1")
-		(property "Reference" "#PWR03"
-			(at 130.81 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "06c936b8-e701-4567-9259-108da9e4fb0f")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 142.24 149.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "007e4f08-33c0-46b9-9812-3edb7c3572b9")
-		(property "Reference" "R11"
-			(at 144.78 148.5899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "18Ω"
-			(at 144.78 151.1299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 143.256 150.114 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 142.24 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CFR-50JB-52-18R"
-			(at 142.24 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 142.24 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "13-CFR-50JB-52-18R-ND"
-			(at 142.24 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "92bc951a-7bb6-4865-b8f9-8dd35c3221bb")
-		)
-		(pin "1"
-			(uuid "3e43a6e1-2229-410c-8b9a-f6b1e1df46e2")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 241.3 101.6 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "030a918c-24e3-460c-8bb4-d4f8566eab6d")
-		(property "Reference" "R7"
-			(at 238.76 100.3299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "150Ω"
-			(at 238.76 102.8699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0918_L18.0mm_D9.0mm_P30.48mm_Horizontal"
-			(at 240.284 101.854 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 241.3 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "EP5WS150RJ"
-			(at 241.3 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 241.3 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "A131370CT-ND"
-			(at 241.3 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "38dcdb4f-57ef-4523-ab36-833f87438163")
-		)
-		(pin "1"
-			(uuid "48803535-3f6e-4018-a59c-a1d4029d374b")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "R7")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -4482,163 +2477,6 @@
 			(project "heater"
 				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 195.58 151.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10d1a5c4-0593-4fa4-8340-93c3af7dfc8b")
-		(property "Reference" "#PWR01"
-			(at 195.58 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 195.58 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d28cd7c5-b174-4028-ab70-e40701e0d5c4")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 294.64 140.97 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "190a6d3e-0ace-416c-9c08-2f7ca8af96b2")
-		(property "Reference" "#PWR08"
-			(at 294.64 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 294.64 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 294.64 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 294.64 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 294.64 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ab955e17-819f-4385-bf66-3e00ec83e2bd")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4724,319 +2562,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 182.88 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c98e6cd-276f-441a-990d-cf08a4d0bd5d")
-		(property "Reference" "#PWR011"
-			(at 182.88 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 182.88 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 182.88 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d0bcd11a-6925-423f-8bbd-29f0d9e1b273")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 271.78 158.75 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "224148b1-5316-45e5-832f-1d698929ccd2")
-		(property "Reference" "Q6"
-			(at 266.7 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRFP4668PBF"
-			(at 267.462 161.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
-			(at 266.7 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 271.78 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "IRFP4668PBFXKMA1"
-			(at 271.78 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 271.78 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "448-IRFP4668PBFXKMA1-ND"
-			(at 271.78 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d97de267-8f75-4771-845e-4a6a313ab96e")
-		)
-		(pin "2"
-			(uuid "837c7bb2-f3e5-4ceb-bd81-0db5e46cab13")
-		)
-		(pin "3"
-			(uuid "a7a068d1-238b-47d5-8e52-51f85856a558")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 118.11 132.08 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "288aeb71-4e0b-408b-87c4-2dcd3043cc94")
-		(property "Reference" "D3"
-			(at 120.65 130.8099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "12V"
-			(at 120.65 133.3499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-15_P15.24mm_Horizontal"
-			(at 118.11 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 118.11 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "1N5349BRLG"
-			(at 118.11 132.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 118.11 132.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "1N5349BRLGOSCT-ND"
-			(at 118.11 132.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9a43c87c-eb47-44e0-bdf6-cbfe23680877")
-		)
-		(pin "1"
-			(uuid "aab233c7-5800-4d97-8176-585056ef9d77")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 154.94 67.31 0)
+		(at 133.35 127 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5048,7 +2575,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e40a831-8a83-47f5-8c08-fd6acb6363d3")
 		(property "Reference" "C5"
-			(at 151.13 66.0399 0)
+			(at 129.54 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5059,7 +2586,7 @@
 			)
 		)
 		(property "Value" "330nF"
-			(at 151.13 68.5799 0)
+			(at 129.54 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5070,7 +2597,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
-			(at 153.9748 71.12 0)
+			(at 132.3848 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5081,7 +2608,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 67.31 0)
+			(at 133.35 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5092,7 +2619,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 154.94 67.31 0)
+			(at 133.35 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5103,7 +2630,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MKP1O133306F00KSSD"
-			(at 154.94 67.31 0)
+			(at 133.35 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5114,7 +2641,7 @@
 			)
 		)
 		(property "Vendor" "Digi-Key"
-			(at 154.94 67.31 0)
+			(at 133.35 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5125,7 +2652,7 @@
 			)
 		)
 		(property "Vendor Part Number" "1928-1444-ND"
-			(at 154.94 67.31 0)
+			(at 133.35 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5230,123 +2757,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 193.04 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "33a5fdee-ce52-4485-b17c-1435c12efeda")
-		(property "Reference" "Q3"
-			(at 198.12 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRFP4668PBF"
-			(at 197.358 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
-			(at 198.12 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 193.04 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "IRFP4668PBFXKMA1"
-			(at 193.04 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 193.04 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "448-IRFP4668PBFXKMA1-ND"
-			(at 193.04 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0b4b3967-0678-4eb3-a0ad-8d2b9d557cd0")
-		)
-		(pin "2"
-			(uuid "fa663d5f-514f-45e2-9c69-5d744b6dafba")
-		)
-		(pin "3"
-			(uuid "e25c10f7-8399-4855-98f7-7f90d2fc08d5")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 93.98 181.61 0)
 		(unit 1)
@@ -5426,7 +2836,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 228.6 95.25 0)
+		(at 105.41 152.4 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5437,7 +2847,7 @@
 		(fields_autoplaced yes)
 		(uuid "3798b6de-352f-48ab-b916-3f022f8d6e25")
 		(property "Reference" "#PWR013"
-			(at 228.6 99.06 0)
+			(at 105.41 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5448,7 +2858,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 228.6 90.17 0)
+			(at 105.41 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5458,7 +2868,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 95.25 0)
+			(at 105.41 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5469,7 +2879,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 95.25 0)
+			(at 105.41 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5480,7 +2890,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 228.6 95.25 0)
+			(at 105.41 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5504,7 +2914,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 127 67.31 0)
+		(at 105.41 127 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5516,7 +2926,7 @@
 		(fields_autoplaced yes)
 		(uuid "3bca019b-ccf4-4f6e-8c62-6cfd5144017d")
 		(property "Reference" "C3"
-			(at 123.19 66.0399 0)
+			(at 101.6 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5527,7 +2937,7 @@
 			)
 		)
 		(property "Value" "330nF"
-			(at 123.19 68.5799 0)
+			(at 101.6 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5538,7 +2948,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
-			(at 126.0348 71.12 0)
+			(at 104.4448 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5549,7 +2959,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 67.31 0)
+			(at 105.41 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5560,7 +2970,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 127 67.31 0)
+			(at 105.41 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5571,7 +2981,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MKP1O133306F00KSSD"
-			(at 127 67.31 0)
+			(at 105.41 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5582,7 +2992,7 @@
 			)
 		)
 		(property "Vendor" "Digi-Key"
-			(at 127 67.31 0)
+			(at 105.41 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5593,7 +3003,7 @@
 			)
 		)
 		(property "Vendor Part Number" "1928-1444-ND"
-			(at 127 67.31 0)
+			(at 105.41 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5619,117 +3029,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Heatsink")
-		(at 228.6 162.56 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3cd0fc5b-c1c7-4cdf-99a5-ac9cb2797bcf")
-		(property "Reference" "HS4"
-			(at 224.79 159.3849 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Heatsink"
-			(at 224.79 161.9249 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:694-50"
-			(at 228.2952 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.2952 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Heatsink"
-			(at 228.6 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "694-50"
-			(at 228.6 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 228.6 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "345-2021-ND"
-			(at 228.6 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "HS4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 252.73 67.31 0)
+		(at 231.14 127 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5741,7 +3042,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f3b6530-16a5-416c-b579-1def06f4cfb7")
 		(property "Reference" "C12"
-			(at 248.92 66.0399 0)
+			(at 227.33 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5752,7 +3053,7 @@
 			)
 		)
 		(property "Value" "330nF"
-			(at 248.92 68.5799 0)
+			(at 227.33 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5763,7 +3064,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
-			(at 251.7648 71.12 0)
+			(at 230.1748 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5774,7 +3075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 67.31 0)
+			(at 231.14 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5785,7 +3086,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 252.73 67.31 0)
+			(at 231.14 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5796,7 +3097,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MKP1O133306F00KSSD"
-			(at 252.73 67.31 0)
+			(at 231.14 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5807,7 +3108,7 @@
 			)
 		)
 		(property "Vendor" "Digi-Key"
-			(at 252.73 67.31 0)
+			(at 231.14 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5818,7 +3119,7 @@
 			)
 		)
 		(property "Vendor Part Number" "1928-1444-ND"
-			(at 252.73 67.31 0)
+			(at 231.14 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5838,279 +3139,6 @@
 			(project "heater"
 				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 152.4 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4668cbb5-593c-4878-870e-d09fe43614e2")
-		(property "Reference" "Q1"
-			(at 157.48 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRFP4668PBF"
-			(at 156.718 161.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
-			(at 157.48 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 152.4 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "IRFP4668PBFXKMA1"
-			(at 152.4 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 152.4 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "448-IRFP4668PBFXKMA1-ND"
-			(at 152.4 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e0e40a7d-8026-4c50-85c1-66d46fdea04a")
-		)
-		(pin "2"
-			(uuid "ba0e7760-5a0f-43fd-9cb4-16653f6992c6")
-		)
-		(pin "3"
-			(uuid "fadacb06-4ddc-4ea0-9874-d8a08c339133")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 241.3 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46ce7d96-dd1d-487f-ae1c-0ea3786d8209")
-		(property "Reference" "#PWR014"
-			(at 241.3 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 241.3 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 241.3 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9b3d594b-ed0b-4b34-b5ed-38738c7b2c6a")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 175.26 160.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4711b4b7-6eec-4e61-a488-445ccaa6a66a")
-		(property "Reference" "#PWR019"
-			(at 175.26 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 175.26 165.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d71ea386-3d0f-4708-8d41-694ba46470c1")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6196,238 +3224,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 241.3 132.08 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4aa5ad4e-22cb-4f3c-9fca-42e3a9a68800")
-		(property "Reference" "R9"
-			(at 238.76 130.8099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "18Ω"
-			(at 238.76 133.3499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 240.284 132.334 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 241.3 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CFR-50JB-52-18R"
-			(at 241.3 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 241.3 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "13-CFR-50JB-52-18R-ND"
-			(at 241.3 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "500487c5-a486-45d9-92e2-94238602494b")
-		)
-		(pin "1"
-			(uuid "d4c09ccf-ddb9-4744-a0fd-ce56738e846f")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 281.94 149.86 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4bf92989-6763-43f9-bfbe-1f1ce541768b")
-		(property "Reference" "R12"
-			(at 279.4 148.5899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "18Ω"
-			(at 279.4 151.1299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 280.924 150.114 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 281.94 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 281.94 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CFR-50JB-52-18R"
-			(at 281.94 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 281.94 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "13-CFR-50JB-52-18R-ND"
-			(at 281.94 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "55e469ba-6e60-4e0a-b82f-6435720d9d3b")
-		)
-		(pin "1"
-			(uuid "a500fbb0-1936-4fa6-bf24-237f5aa2cd85")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 109.22 181.61 0)
 		(unit 1)
@@ -6507,7 +3303,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 210.82 67.31 0)
+		(at 189.23 127 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6519,7 +3315,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e9c1519-3b58-4288-bbb7-300ff4952696")
 		(property "Reference" "C9"
-			(at 207.01 66.0399 0)
+			(at 185.42 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6530,7 +3326,7 @@
 			)
 		)
 		(property "Value" "330nF"
-			(at 207.01 68.5799 0)
+			(at 185.42 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6541,7 +3337,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
-			(at 209.8548 71.12 0)
+			(at 188.2648 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6552,7 +3348,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 67.31 0)
+			(at 189.23 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6563,7 +3359,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 210.82 67.31 0)
+			(at 189.23 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6574,7 +3370,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MKP1O133306F00KSSD"
-			(at 210.82 67.31 0)
+			(at 189.23 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6585,7 +3381,7 @@
 			)
 		)
 		(property "Vendor" "Digi-Key"
-			(at 210.82 67.31 0)
+			(at 189.23 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6596,7 +3392,7 @@
 			)
 		)
 		(property "Vendor Part Number" "1928-1444-ND"
-			(at 210.82 67.31 0)
+			(at 189.23 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6622,123 +3418,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 105.41 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f3cc04b-10dc-4b31-a877-c4c8619b8a0f")
-		(property "Reference" "C1"
-			(at 109.22 130.8099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2μF"
-			(at 109.22 133.3499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
-			(at 106.3752 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 105.41 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "FG26X7S2A225KRT06"
-			(at 105.41 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 105.41 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "445-173459-1-ND"
-			(at 105.41 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "30041e80-4995-49f4-997e-a677953016de")
-		)
-		(pin "1"
-			(uuid "ecffa0b2-1cc6-458b-9a1e-97886ecf6fc9")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
-		(at 228.6 107.95 180)
+		(at 105.41 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6748,7 +3429,7 @@
 		(dnp no)
 		(uuid "50c2dece-bccf-4449-b140-846462ded03f")
 		(property "Reference" "L1"
-			(at 224.79 106.426 0)
+			(at 109.22 141.224 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6759,7 +3440,7 @@
 			)
 		)
 		(property "Value" "70μH"
-			(at 220.98 108.966 0)
+			(at 113.03 138.684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6770,7 +3451,7 @@
 			)
 		)
 		(property "Footprint" "footprints:L_Toroid_Vertical_L39.9mm_W32.4mm_P30.0mm"
-			(at 228.6 107.95 0)
+			(at 105.41 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6781,7 +3462,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 107.95 0)
+			(at 105.41 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6792,7 +3473,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 228.6 107.95 0)
+			(at 105.41 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6803,7 +3484,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 228.6 107.95 0)
+			(at 105.41 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6814,7 +3495,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 228.6 107.95 0)
+			(at 105.41 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6825,7 +3506,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 228.6 107.95 0)
+			(at 105.41 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6852,7 +3533,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 266.7 67.31 0)
+		(at 245.11 127 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6864,7 +3545,7 @@
 		(fields_autoplaced yes)
 		(uuid "6029ae56-85b2-4de5-9da9-94b0086bf9e3")
 		(property "Reference" "C13"
-			(at 262.89 66.0399 0)
+			(at 241.3 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6875,7 +3556,7 @@
 			)
 		)
 		(property "Value" "330nF"
-			(at 262.89 68.5799 0)
+			(at 241.3 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6886,7 +3567,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
-			(at 265.7348 71.12 0)
+			(at 244.1448 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6897,7 +3578,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 67.31 0)
+			(at 245.11 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6908,7 +3589,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 266.7 67.31 0)
+			(at 245.11 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6919,7 +3600,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MKP1O133306F00KSSD"
-			(at 266.7 67.31 0)
+			(at 245.11 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6930,7 +3611,7 @@
 			)
 		)
 		(property "Vendor" "Digi-Key"
-			(at 266.7 67.31 0)
+			(at 245.11 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6941,7 +3622,7 @@
 			)
 		)
 		(property "Vendor Part Number" "1928-1444-ND"
-			(at 266.7 67.31 0)
+			(at 245.11 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6961,310 +3642,6 @@
 			(project "heater"
 				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Heatsink")
-		(at 175.26 171.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "65d300de-3fbb-45c6-84db-fffb215f0639")
-		(property "Reference" "HS2"
-			(at 179.07 168.2749 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Heatsink"
-			(at 179.07 170.8149 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:694-50"
-			(at 175.5648 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.5648 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Heatsink"
-			(at 175.26 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "694-50"
-			(at 175.26 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 175.26 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "345-2021-ND"
-			(at 175.26 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "HS2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 231.14 140.97 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "65e1f00f-923e-4701-8c92-54914a309d4f")
-		(property "Reference" "Q4"
-			(at 225.806 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRFP4668PBF"
-			(at 226.822 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
-			(at 226.06 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 231.14 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "IRFP4668PBFXKMA1"
-			(at 231.14 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 231.14 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "448-IRFP4668PBFXKMA1-ND"
-			(at 231.14 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2584a5cc-cd44-41df-b58e-c998c379be08")
-		)
-		(pin "2"
-			(uuid "5f6481cb-d86c-4156-905e-2b9cf054ac8d")
-		)
-		(pin "3"
-			(uuid "1554023e-69e9-46c9-ae08-e0775d7e9fbd")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 154.94 168.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "682c1002-ee00-4243-b36e-b628b19a24fc")
-		(property "Reference" "#PWR020"
-			(at 154.94 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 154.94 173.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dff4810c-835c-49ae-8d0d-23d206152391")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7555,233 +3932,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Heatsink")
-		(at 154.94 180.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e2974ab-60fa-4e29-84f7-20ba8d47324f")
-		(property "Reference" "HS1"
-			(at 158.75 177.1649 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Heatsink"
-			(at 158.75 179.7049 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:694-50"
-			(at 155.2448 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 155.2448 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Heatsink"
-			(at 154.94 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "694-50"
-			(at 154.94 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 154.94 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "345-2021-ND"
-			(at 154.94 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "HS1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 294.64 132.08 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ef63d5a-1a5d-4ad6-a161-fd588a8440cd")
-		(property "Reference" "R3"
-			(at 292.1 130.8099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 292.1 133.3499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 293.624 132.334 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 294.64 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 294.64 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CF12JT10K0"
-			(at 294.64 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 294.64 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "CF12JT10K0CT-ND"
-			(at 294.64 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a1091a31-4587-4ead-a51d-fe589dea8d3d")
-		)
-		(pin "1"
-			(uuid "4eabbf1e-de97-4426-a3a3-860290bcfbdb")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 280.67 67.31 0)
+		(at 259.08 127 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7793,7 +3945,7 @@
 		(fields_autoplaced yes)
 		(uuid "7170c633-9e01-4efd-bf2a-c1c5b372e7ca")
 		(property "Reference" "C14"
-			(at 276.86 66.0399 0)
+			(at 255.27 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7804,7 +3956,7 @@
 			)
 		)
 		(property "Value" "330nF"
-			(at 276.86 68.5799 0)
+			(at 255.27 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7815,7 +3967,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
-			(at 279.7048 71.12 0)
+			(at 258.1148 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7826,7 +3978,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 67.31 0)
+			(at 259.08 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7837,7 +3989,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 280.67 67.31 0)
+			(at 259.08 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7848,7 +4000,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MKP1O133306F00KSSD"
-			(at 280.67 67.31 0)
+			(at 259.08 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7859,7 +4011,7 @@
 			)
 		)
 		(property "Vendor" "Digi-Key"
-			(at 280.67 67.31 0)
+			(at 259.08 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7870,7 +4022,7 @@
 			)
 		)
 		(property "Vendor Part Number" "1928-1444-ND"
-			(at 280.67 67.31 0)
+			(at 259.08 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7897,7 +4049,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 195.58 95.25 0)
+		(at 105.41 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7908,7 +4060,7 @@
 		(fields_autoplaced yes)
 		(uuid "72565f6d-81d2-49bf-98e1-cb11ac9f108b")
 		(property "Reference" "#PWR012"
-			(at 195.58 99.06 0)
+			(at 105.41 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7919,7 +4071,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 195.58 90.17 0)
+			(at 105.41 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7929,7 +4081,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 95.25 0)
+			(at 105.41 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7940,7 +4092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 95.25 0)
+			(at 105.41 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7951,7 +4103,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 195.58 95.25 0)
+			(at 105.41 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7974,238 +4126,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 241.3 115.57 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7266cbbc-eff9-4424-b4c1-94cd5a362557")
-		(property "Reference" "R8"
-			(at 245.618 114.046 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 246.888 116.586 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0918_L18.0mm_D9.0mm_P30.48mm_Horizontal"
-			(at 240.284 115.824 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 241.3 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "WS5M1001J"
-			(at 241.3 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 241.3 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "WS5M1001JCT-ND"
-			(at 241.3 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "982e2b1a-92ce-40af-b376-2c5ab26f6356")
-		)
-		(pin "1"
-			(uuid "c160b3c6-3da0-4fad-9b81-a74d948813b7")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 182.88 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7490fb11-d04c-4cab-bade-80ea7ae8e814")
-		(property "Reference" "R6"
-			(at 185.42 100.3299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "150Ω"
-			(at 185.42 102.8699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0918_L18.0mm_D9.0mm_P30.48mm_Horizontal"
-			(at 183.896 101.854 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 182.88 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "EP5WS150RJ"
-			(at 182.88 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 182.88 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "A131370CT-ND"
-			(at 182.88 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f9f79292-d266-4726-a062-4b9da42bab7e")
-		)
-		(pin "1"
-			(uuid "7cb629c2-eae4-4d91-b7eb-5d234dd33c84")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 308.61 67.31 0)
+		(at 287.02 127 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8217,7 +4139,7 @@
 		(fields_autoplaced yes)
 		(uuid "74bdd2e0-c021-4c24-ae92-1435f56c7086")
 		(property "Reference" "C16"
-			(at 304.8 66.0399 0)
+			(at 283.21 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8228,7 +4150,7 @@
 			)
 		)
 		(property "Value" "330nF"
-			(at 304.8 68.5799 0)
+			(at 283.21 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8239,7 +4161,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
-			(at 307.6448 71.12 0)
+			(at 286.0548 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8250,7 +4172,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 308.61 67.31 0)
+			(at 287.02 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8261,7 +4183,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 308.61 67.31 0)
+			(at 287.02 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8272,7 +4194,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MKP1O133306F00KSSD"
-			(at 308.61 67.31 0)
+			(at 287.02 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8283,7 +4205,7 @@
 			)
 		)
 		(property "Vendor" "Digi-Key"
-			(at 308.61 67.31 0)
+			(at 287.02 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8294,7 +4216,7 @@
 			)
 		)
 		(property "Vendor Part Number" "1928-1444-ND"
-			(at 308.61 67.31 0)
+			(at 287.02 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8320,317 +4242,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
-		(at 307.34 132.08 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75d3fe2d-bb9b-4612-8aa1-cca3ee2c5607")
-		(property "Reference" "D4"
-			(at 304.8 130.8099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "12V"
-			(at 304.8 133.3499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-15_P15.24mm_Horizontal"
-			(at 307.34 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 307.34 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 307.34 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "1N5349BRLG"
-			(at 307.34 132.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 307.34 132.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "1N5349BRLGOSCT-ND"
-			(at 307.34 132.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "777db672-a490-435b-af29-c58255351a13")
-		)
-		(pin "1"
-			(uuid "8dc8a7ae-5e22-4516-a20e-3798a90ba741")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 105.41 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "763c9c50-5deb-4fc4-8c5a-ec02d9616ee7")
-		(property "Reference" "#PWR05"
-			(at 105.41 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 105.41 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a420704f-e587-4b8f-beba-cc46e6c3016b")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 162.56 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7951f6ac-5a98-468e-a75f-375fe61b9486")
-		(property "Reference" "R10"
-			(at 165.1 139.6999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "18Ω"
-			(at 165.1 142.2399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 163.576 141.224 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 162.56 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CFR-50JB-52-18R"
-			(at 162.56 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 162.56 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "13-CFR-50JB-52-18R-ND"
-			(at 162.56 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "153004db-a76d-4df8-b4aa-0144e9655e09")
-		)
-		(pin "1"
-			(uuid "d5d54da2-2bba-4522-8ddb-72a5fcac31b5")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 224.79 67.31 0)
+		(at 203.2 127 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8642,7 +4255,7 @@
 		(fields_autoplaced yes)
 		(uuid "79cd8ace-e905-4391-a59a-a4cddc95cccf")
 		(property "Reference" "C10"
-			(at 220.98 66.0399 0)
+			(at 199.39 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8653,7 +4266,7 @@
 			)
 		)
 		(property "Value" "330nF"
-			(at 220.98 68.5799 0)
+			(at 199.39 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8664,7 +4277,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
-			(at 223.8248 71.12 0)
+			(at 202.2348 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8675,7 +4288,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 67.31 0)
+			(at 203.2 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8686,7 +4299,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 224.79 67.31 0)
+			(at 203.2 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8697,7 +4310,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MKP1O133306F00KSSD"
-			(at 224.79 67.31 0)
+			(at 203.2 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8708,7 +4321,7 @@
 			)
 		)
 		(property "Vendor" "Digi-Key"
-			(at 224.79 67.31 0)
+			(at 203.2 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8719,7 +4332,7 @@
 			)
 		)
 		(property "Vendor Part Number" "1928-1444-ND"
-			(at 224.79 67.31 0)
+			(at 203.2 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8861,123 +4474,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 320.04 132.08 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "848e4b53-2d18-4935-80a8-5fd77c4101d9")
-		(property "Reference" "C2"
-			(at 316.23 130.8099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2μF"
-			(at 316.23 133.3499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
-			(at 319.0748 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 320.04 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "FG26X7S2A225KRT06"
-			(at 320.04 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 320.04 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "445-173459-1-ND"
-			(at 320.04 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ad6fb25e-73b5-428a-9ecd-a50ebe274209")
-		)
-		(pin "1"
-			(uuid "d80fec5d-bef4-41b1-bf3a-d32c621400f3")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 182.88 67.31 0)
+		(at 161.29 127 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8989,7 +4486,7 @@
 		(fields_autoplaced yes)
 		(uuid "85dd17e4-ca68-468e-8b58-1878088e71df")
 		(property "Reference" "C7"
-			(at 179.07 66.0399 0)
+			(at 157.48 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9000,7 +4497,7 @@
 			)
 		)
 		(property "Value" "330nF"
-			(at 179.07 68.5799 0)
+			(at 157.48 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9011,7 +4508,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
-			(at 181.9148 71.12 0)
+			(at 160.3248 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9022,7 +4519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 67.31 0)
+			(at 161.29 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9033,7 +4530,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 182.88 67.31 0)
+			(at 161.29 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9044,7 +4541,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MKP1O133306F00KSSD"
-			(at 182.88 67.31 0)
+			(at 161.29 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9055,7 +4552,7 @@
 			)
 		)
 		(property "Vendor" "Digi-Key"
-			(at 182.88 67.31 0)
+			(at 161.29 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9066,7 +4563,7 @@
 			)
 		)
 		(property "Vendor Part Number" "1928-1444-ND"
-			(at 182.88 67.31 0)
+			(at 161.29 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9093,7 +4590,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 195.58 107.95 180)
+		(at 105.41 114.3 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9103,7 +4600,7 @@
 		(dnp no)
 		(uuid "9170c97a-7a38-40dd-bcde-2125065fdf61")
 		(property "Reference" "L2"
-			(at 197.866 106.68 0)
+			(at 107.696 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9113,7 +4610,7 @@
 			)
 		)
 		(property "Value" "70μH"
-			(at 199.898 109.22 0)
+			(at 109.728 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9123,7 +4620,7 @@
 			)
 		)
 		(property "Footprint" "footprints:L_Toroid_Vertical_L39.9mm_W32.4mm_P30.0mm"
-			(at 195.58 107.95 0)
+			(at 105.41 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9134,7 +4631,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 107.95 0)
+			(at 105.41 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9145,7 +4642,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 195.58 107.95 0)
+			(at 105.41 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9156,7 +4653,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 195.58 107.95 0)
+			(at 105.41 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9167,7 +4664,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 195.58 107.95 0)
+			(at 105.41 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9178,7 +4675,7 @@
 			)
 		)
 		(property "Vendor Part Number" ""
-			(at 195.58 107.95 0)
+			(at 105.41 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9198,85 +4695,6 @@
 			(project "heater"
 				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
 					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 307.34 140.97 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93e8ae72-0ea0-4331-9c0e-23a3d8249796")
-		(property "Reference" "#PWR07"
-			(at 307.34 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 307.34 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 307.34 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 307.34 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 307.34 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4c2fd2a7-ab79-49d9-b9da-9c35a8006d0f")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -9871,142 +5289,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 118.11 116.84 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b60c350f-f96b-477d-863b-2efaa42bf5bb")
-		(property "Reference" "D5"
-			(at 112.776 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FR307"
-			(at 115.316 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 118.11 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 118.11 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 118.11 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 118.11 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "FR307G"
-			(at 118.11 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 118.11 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "1801-FR307GCT-ND"
-			(at 118.11 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ff9191c9-5a68-4d5e-b6cb-ed4e039c5f7b")
-		)
-		(pin "1"
-			(uuid "4e2293d4-1f6d-44a0-9ad0-c2c8c082d02d")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 313.69 73.66 270)
+		(at 292.1 133.35 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10017,7 +5301,7 @@
 		(fields_autoplaced yes)
 		(uuid "b72175df-de0b-48b5-b22a-c151f024322f")
 		(property "Reference" "H2"
-			(at 317.5 72.3899 90)
+			(at 295.91 132.0799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10028,7 +5312,7 @@
 			)
 		)
 		(property "Value" "Coil 2"
-			(at 317.5 74.9299 90)
+			(at 295.91 134.6199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10039,7 +5323,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_8.4mm_M8_Pad"
-			(at 313.69 73.66 0)
+			(at 292.1 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10050,7 +5334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 73.66 0)
+			(at 292.1 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10061,7 +5345,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 313.69 73.66 0)
+			(at 292.1 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10084,125 +5368,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 172.72 149.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bd39a7df-1a4f-4323-8de7-e8aa97876e16")
-		(property "Reference" "Q2"
-			(at 177.8 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRFP4668PBF"
-			(at 177.038 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
-			(at 177.8 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 172.72 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "IRFP4668PBFXKMA1"
-			(at 172.72 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 172.72 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "448-IRFP4668PBFXKMA1-ND"
-			(at 172.72 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "defb7906-0620-493b-aeca-bda70d1b05ff")
-		)
-		(pin "2"
-			(uuid "d25555be-1139-45a2-9e5b-ed7dc8006f40")
-		)
-		(pin "3"
-			(uuid "8b9e7852-a335-4787-9b02-a4c22af3b9e3")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 294.64 67.31 0)
+		(at 273.05 127 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10214,7 +5381,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2092f9e-8269-42b5-9d52-2012a8c41d1c")
 		(property "Reference" "C15"
-			(at 290.83 66.0399 0)
+			(at 269.24 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10225,7 +5392,7 @@
 			)
 		)
 		(property "Value" "330nF"
-			(at 290.83 68.5799 0)
+			(at 269.24 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10236,7 +5403,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
-			(at 293.6748 71.12 0)
+			(at 272.0848 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10247,7 +5414,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 294.64 67.31 0)
+			(at 273.05 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10258,7 +5425,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 294.64 67.31 0)
+			(at 273.05 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10269,7 +5436,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MKP1O133306F00KSSD"
-			(at 294.64 67.31 0)
+			(at 273.05 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10280,7 +5447,7 @@
 			)
 		)
 		(property "Vendor" "Digi-Key"
-			(at 294.64 67.31 0)
+			(at 273.05 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10291,7 +5458,7 @@
 			)
 		)
 		(property "Vendor Part Number" "1928-1444-ND"
-			(at 294.64 67.31 0)
+			(at 273.05 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10317,86 +5484,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 228.6 151.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c90d58bb-0566-4aad-9e28-f4574b922817")
-		(property "Reference" "#PWR02"
-			(at 228.6 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 228.6 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a0763d81-8ddc-4bb6-9664-a48c7ed2cb4a")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 313.69 60.96 270)
+		(at 292.1 120.65 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10407,7 +5496,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9f19f7b-a3e6-48a1-bb34-3cffd67612e5")
 		(property "Reference" "H1"
-			(at 317.5 59.6899 90)
+			(at 295.91 119.3799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10418,7 +5507,7 @@
 			)
 		)
 		(property "Value" "Coil 1"
-			(at 317.5 62.2299 90)
+			(at 295.91 121.9199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10429,7 +5518,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_8.4mm_M8_Pad"
-			(at 313.69 60.96 0)
+			(at 292.1 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10440,7 +5529,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 60.96 0)
+			(at 292.1 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10451,7 +5540,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 313.69 60.96 0)
+			(at 292.1 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10474,252 +5563,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Heatsink")
-		(at 269.24 180.34 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cfab4b57-dba6-41db-8861-86cba58f0a12")
-		(property "Reference" "HS6"
-			(at 265.43 177.1649 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Heatsink"
-			(at 265.43 179.7049 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:694-50"
-			(at 268.9352 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 268.9352 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Heatsink"
-			(at 269.24 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "694-50"
-			(at 269.24 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 269.24 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "345-2021-ND"
-			(at 269.24 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "HS6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 307.34 116.84 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d312be4d-a155-45ad-8241-bc7488bf3e77")
-		(property "Reference" "D6"
-			(at 312.42 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FR307"
-			(at 309.88 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 307.34 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 307.34 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 307.34 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 307.34 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 307.34 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "FR307G"
-			(at 307.34 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 307.34 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "1801-FR307GCT-ND"
-			(at 307.34 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "19bf3d00-fb82-4fd4-8a8d-7270ac169261")
-		)
-		(pin "1"
-			(uuid "c48acc4d-4311-4be7-9f14-4e5b65035baa")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 140.97 67.31 0)
+		(at 119.38 127 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10731,7 +5576,7 @@
 		(fields_autoplaced yes)
 		(uuid "d437f422-528a-4a3f-8ed8-d46b0cc648f4")
 		(property "Reference" "C4"
-			(at 137.16 66.0399 0)
+			(at 115.57 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10742,7 +5587,7 @@
 			)
 		)
 		(property "Value" "330nF"
-			(at 137.16 68.5799 0)
+			(at 115.57 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10753,7 +5598,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
-			(at 140.0048 71.12 0)
+			(at 118.4148 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10764,7 +5609,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 67.31 0)
+			(at 119.38 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10775,7 +5620,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 140.97 67.31 0)
+			(at 119.38 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10786,7 +5631,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MKP1O133306F00KSSD"
-			(at 140.97 67.31 0)
+			(at 119.38 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10797,7 +5642,7 @@
 			)
 		)
 		(property "Vendor" "Digi-Key"
-			(at 140.97 67.31 0)
+			(at 119.38 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10808,7 +5653,7 @@
 			)
 		)
 		(property "Vendor Part Number" "1928-1444-ND"
-			(at 140.97 67.31 0)
+			(at 119.38 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10828,121 +5673,6 @@
 			(project "heater"
 				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 182.88 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4e4d864-9bbc-4529-80fb-fcfda59047eb")
-		(property "Reference" "R2"
-			(at 185.42 130.8099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "18Ω"
-			(at 185.42 133.3499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 183.896 132.334 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 182.88 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CFR-50JB-52-18R"
-			(at 182.88 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 182.88 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "13-CFR-50JB-52-18R-ND"
-			(at 182.88 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "845285b4-4e7e-49be-b277-42cd44d2dd22")
-		)
-		(pin "1"
-			(uuid "3b04397d-ace6-4651-9ff4-e0f26dce21a2")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -11028,126 +5758,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 251.46 149.86 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d916ff30-7027-4b7d-aa4d-80dd8ffa0ba0")
-		(property "Reference" "Q5"
-			(at 246.38 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRFP4668PBF"
-			(at 247.142 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
-			(at 246.38 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 251.46 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "IRFP4668PBFXKMA1"
-			(at 251.46 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 251.46 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "448-IRFP4668PBFXKMA1-ND"
-			(at 251.46 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "02566aef-a045-4cf5-95c1-107a31e7327c")
-		)
-		(pin "2"
-			(uuid "e520604d-b060-4a4c-8746-b658527c76ca")
-		)
-		(pin "3"
-			(uuid "4dfc77e0-9ac2-4cf2-9166-ebea1142cd48")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 196.85 67.31 0)
+		(at 175.26 127 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11159,7 +5771,7 @@
 		(fields_autoplaced yes)
 		(uuid "da5e5a8a-916b-4a14-95df-7ba5832510a1")
 		(property "Reference" "C8"
-			(at 193.04 66.0399 0)
+			(at 171.45 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11170,7 +5782,7 @@
 			)
 		)
 		(property "Value" "330nF"
-			(at 193.04 68.5799 0)
+			(at 171.45 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11181,7 +5793,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
-			(at 195.8848 71.12 0)
+			(at 174.2948 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11192,7 +5804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 67.31 0)
+			(at 175.26 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11203,7 +5815,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 196.85 67.31 0)
+			(at 175.26 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11214,7 +5826,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MKP1O133306F00KSSD"
-			(at 196.85 67.31 0)
+			(at 175.26 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11225,7 +5837,7 @@
 			)
 		)
 		(property "Vendor" "Digi-Key"
-			(at 196.85 67.31 0)
+			(at 175.26 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11236,7 +5848,7 @@
 			)
 		)
 		(property "Vendor Part Number" "1928-1444-ND"
-			(at 196.85 67.31 0)
+			(at 175.26 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11262,360 +5874,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 118.11 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2f95452-2b08-4ab2-b56f-1c6a3278b691")
-		(property "Reference" "#PWR04"
-			(at 118.11 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 118.11 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d21074ce-8901-4bce-ba9f-95488923d42c")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 261.62 140.97 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e378be4c-8fe5-46b1-b338-4dd0a9d24c4b")
-		(property "Reference" "R13"
-			(at 259.08 139.6999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "18Ω"
-			(at 259.08 142.2399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 260.604 141.224 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 261.62 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CFR-50JB-52-18R"
-			(at 261.62 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 261.62 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "13-CFR-50JB-52-18R-ND"
-			(at 261.62 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9b3c4650-d726-4528-bd34-2e53ec17f0c5")
-		)
-		(pin "1"
-			(uuid "9b3a2812-9354-4344-9fed-7e3bff3ebac8")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 320.04 140.97 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e42acbb9-6934-4173-aefa-e736416dd809")
-		(property "Reference" "#PWR06"
-			(at 320.04 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 320.04 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 320.04 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 320.04 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fabd578c-7f70-4b39-9866-7216ba337652")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 248.92 160.02 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec519a02-417a-4a5c-af49-4c04f0d4e5bd")
-		(property "Reference" "#PWR022"
-			(at 248.92 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 248.92 165.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.92 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 248.92 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "317f0d7f-92d5-45a7-b6d9-79a9ab10944d")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 238.76 67.31 0)
+		(at 217.17 127 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11627,7 +5887,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee16d8b8-5fb3-4dda-8856-bba9274fcaf4")
 		(property "Reference" "C11"
-			(at 234.95 66.0399 0)
+			(at 213.36 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11638,7 +5898,7 @@
 			)
 		)
 		(property "Value" "330nF"
-			(at 234.95 68.5799 0)
+			(at 213.36 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11649,7 +5909,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
-			(at 237.7948 71.12 0)
+			(at 216.2048 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11660,7 +5920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 67.31 0)
+			(at 217.17 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11671,7 +5931,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 238.76 67.31 0)
+			(at 217.17 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11682,7 +5942,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MKP1O133306F00KSSD"
-			(at 238.76 67.31 0)
+			(at 217.17 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11693,7 +5953,7 @@
 			)
 		)
 		(property "Vendor" "Digi-Key"
-			(at 238.76 67.31 0)
+			(at 217.17 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11704,7 +5964,7 @@
 			)
 		)
 		(property "Vendor Part Number" "1928-1444-ND"
-			(at 238.76 67.31 0)
+			(at 217.17 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11730,196 +5990,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 269.24 168.91 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4df3f64-f3b6-489e-92a8-ba39228c5742")
-		(property "Reference" "#PWR021"
-			(at 269.24 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 269.24 173.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "51dc44d2-1c55-4458-8b16-c070a6e369ea")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Heatsink")
-		(at 248.92 171.45 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f4fff045-5df4-4a0c-9016-6c9c020e4174")
-		(property "Reference" "HS5"
-			(at 245.11 168.2749 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Heatsink"
-			(at 245.11 170.8149 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:694-50"
-			(at 248.6152 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.6152 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Heatsink"
-			(at 248.92 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "694-50"
-			(at 248.92 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 248.92 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "345-2021-ND"
-			(at 248.92 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "HS5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 168.91 67.31 0)
+		(at 147.32 127 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11931,7 +6003,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6636461-e9c3-402b-a8b6-0289ca00b243")
 		(property "Reference" "C6"
-			(at 165.1 66.0399 0)
+			(at 143.51 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11942,7 +6014,7 @@
 			)
 		)
 		(property "Value" "330nF"
-			(at 165.1 68.5799 0)
+			(at 143.51 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11953,7 +6025,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4"
-			(at 167.9448 71.12 0)
+			(at 146.3548 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11964,7 +6036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 67.31 0)
+			(at 147.32 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11975,7 +6047,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 168.91 67.31 0)
+			(at 147.32 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11986,7 +6058,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MKP1O133306F00KSSD"
-			(at 168.91 67.31 0)
+			(at 147.32 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11997,7 +6069,7 @@
 			)
 		)
 		(property "Vendor" "Digi-Key"
-			(at 168.91 67.31 0)
+			(at 147.32 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12008,7 +6080,7 @@
 			)
 		)
 		(property "Vendor Part Number" "1928-1444-ND"
-			(at 168.91 67.31 0)
+			(at 147.32 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12028,343 +6100,6 @@
 			(project "heater"
 				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Heatsink")
-		(at 195.58 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f71db9dc-4e8c-48cf-a936-e75ca7334091")
-		(property "Reference" "HS3"
-			(at 199.39 159.3849 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Heatsink"
-			(at 199.39 161.9249 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:694-50"
-			(at 195.8848 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.8848 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Heatsink"
-			(at 195.58 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "694-50"
-			(at 195.58 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 195.58 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "345-2021-ND"
-			(at 195.58 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "HS3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 130.81 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9d6c059-56b5-41ee-acce-82e1ade8a4d5")
-		(property "Reference" "R4"
-			(at 133.35 130.8099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 133.35 133.3499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 131.826 132.334 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 130.81 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CF12JT10K0"
-			(at 130.81 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 130.81 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "CF12JT10K0CT-ND"
-			(at 130.81 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d65ca930-21cc-4f8a-80cd-32ff499b278c")
-		)
-		(pin "1"
-			(uuid "55701193-1ca9-447c-ac41-4d3abfedac85")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 182.88 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f9e39858-d595-4a7c-b571-f189cdf0585f")
-		(property "Reference" "R5"
-			(at 178.816 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 177.546 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0918_L18.0mm_D9.0mm_P30.48mm_Horizontal"
-			(at 183.896 115.824 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 182.88 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "WS5M1001J"
-			(at 182.88 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor" "Digi-Key"
-			(at 182.88 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vendor Part Number" "WS5M1001JCT-ND"
-			(at 182.88 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "514ac325-0d89-44a1-a4fb-044e4292957d")
-		)
-		(pin "1"
-			(uuid "90c017ab-04db-44f1-a8c5-4366ac9a513a")
-		)
-		(instances
-			(project "heater"
-				(path "/1555391a-c563-48a1-8ab4-99ec800f7b10"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -12608,8 +6343,8 @@
 		)
 	)
 	(sheet
-		(at 200.66 182.88)
-		(size 22.86 10.16)
+		(at 219.71 177.8)
+		(size 24.13 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -12624,7 +6359,7 @@
 		)
 		(uuid "03c635df-f5b9-4a11-b4b0-be07df9dfb5c")
 		(property "Sheetname" "Fan Controller"
-			(at 200.66 182.1684 0)
+			(at 219.71 177.0884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12635,7 +6370,7 @@
 			)
 		)
 		(property "Sheetfile" "fan_control.kicad_sch"
-			(at 200.66 193.6246 0)
+			(at 219.71 192.3546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12654,8 +6389,8 @@
 		)
 	)
 	(sheet
-		(at 292.1 177.8)
-		(size 24.13 5.08)
+		(at 219.71 157.48)
+		(size 24.13 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -12670,7 +6405,7 @@
 		)
 		(uuid "69967872-53b8-42df-a61f-0c54cbfeaea9")
 		(property "Sheetname" "PLL & Gate Drive"
-			(at 292.1 177.0884 0)
+			(at 219.71 156.7684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12681,7 +6416,7 @@
 			)
 		)
 		(property "Sheetfile" "pll_gate_drive.kicad_sch"
-			(at 292.1 183.4646 0)
+			(at 219.71 172.0346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
